@@ -1,0 +1,16 @@
+# Site settings
+title: Matthieu Jimenez
+email: matthieu.jimenez@uni.lu
+description: > # this means to ignore newlines until "baseurl:"
+  Since Fall 2014, I am a PhD candidate  in the Serval team of the SnT Interdisciplinary Centre at the University of Luxembourg.
+  I hold an Engineering degree in Computer Science with a major in Information Security from Polytech’Nice Sophia.
+  My research interests include Information Security, Internet of Things, Testing, Mobile Applications and Networking.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://jimenez.lu" # the base hostname & protocol for your site
+twitter_username: electricalwind
+github_username:  electricalwind
+linkedin: matthieu-jimenez/59/53a/3b0/fr
+paginate: 3
+
+# Build settings
+markdown: kramdown
