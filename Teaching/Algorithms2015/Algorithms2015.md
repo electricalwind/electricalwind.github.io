@@ -7,6 +7,7 @@ categories: teaching
 ### Course Description
 Taught in French
 lectures given by [Pierre Kelsen](http://wwwen.uni.lu/research/fstc/laboratory_of_advanced_software_systems_lassy/members/pierre_kelsen)
+
 #### Evaluation:
 Évaluation des travaux dirigés et pratiques (40%), examen écrit final (60%)
 
