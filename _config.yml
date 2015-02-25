@@ -8,7 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jimenez.lu" # the base hostname & protocol for your site
 twitter_username: electricalwind
 github_username:  electricalwind
-linkedin: matthieu-jimenez/59/53a/3b0/fr
+linkedin: matthieujimenez
 paginate: 3
 
 # Build settings
