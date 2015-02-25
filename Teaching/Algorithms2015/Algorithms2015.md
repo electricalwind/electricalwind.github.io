@@ -6,7 +6,7 @@ categories: teaching
 
 ### Course Description
 Taught in French
-
+lectures given by [Pierre Kelsen](http://wwwen.uni.lu/research/fstc/laboratory_of_advanced_software_systems_lassy/members/pierre_kelsen)
 #### Evaluation:
 Évaluation des travaux dirigés et pratiques (40%), examen écrit final (60%)
 
@@ -23,7 +23,7 @@ Familiariser les étudiant(e)s avec les algorithmes et structures de données fo
 + algorithmes sur les graphes
 + classification d'algorithmes
 
-###Slide from the Practical Session
+###Slides from the Practical Session
 + TD1 - 16 février 2015
   - slides TD1
   - [correction TD1](CorrectionTD1.pdf)
