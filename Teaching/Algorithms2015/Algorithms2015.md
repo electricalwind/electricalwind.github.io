@@ -36,6 +36,6 @@ Familiariser les étudiant(e)s avec les algorithmes et structures de données fo
   - correction TD3
   - [Exam 1](Exam1.pdf)
   - [correction Exam 1](CorrectionInterro1.pdf)
-+TD4 - 16 mars 2015
++ TD4 - 16 mars 2015
   - [Exercices Sheet](TD4.pdf)
   - correction TD4
