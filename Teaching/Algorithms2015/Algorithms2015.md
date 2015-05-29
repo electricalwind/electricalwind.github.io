@@ -33,9 +33,23 @@ Familiariser les étudiant(e)s avec les algorithmes et structures de données fo
   - [correction TD2](CorrectionTD2.pdf)
 + TD3 - 3 mars 2015
   - slides TD3
-  - correction TD3
-  - [Exam 1](Exam1.pdf)
-  - [correction Exam 1](CorrectionInterro1.pdf)
+  - [correction TD3](CorrectionTD3.pdf)
+  - Exam 1
 + TD4 - 16 mars 2015
   - [Exercices Sheet](TD4.pdf)
-  - correction TD4
+  - [correction TD4] (CorrectionTD4.pdf)
++ TD5 - 30 mars 2015
+  - [Exercices Sheet](TD5.pdf)
+  - [correction TD5](CorrectionTD5.pdf) 
++ TD6 - 13 Avril 2015
+  - [Exercices Sheet](TD6.pdf)
+  - [correction TD6](CorrectionTD6.pdf)
+  - Exam 2
++ TD7 - 4 Mai 2015
+  - [Exercices Sheet](TD7.pdf)
+  - [correction TD7](CorrectionTD7.pdf) 
++ TD8 - 11 Mai 2015
+  - [Exercices Sheet](TD8.pdf)
+  - [correction TD8](CorrectionTD8.pdf) 
+  - Exam 3
+  
