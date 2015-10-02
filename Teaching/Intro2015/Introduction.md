@@ -6,7 +6,7 @@ categories: teaching
 
 ### Course Description
 Taught in French
-lectures given by [Pierre Kelsen](http://wwwen.uni.lu/research/fstc/laboratory_of_advanced_software_systems_lassy/members/pierre_kelsen)
+lectures given by Matthieu Jimenez, Yves Le Traon, Sylvain Kubler
 
 #### Evaluation:
 Final Exam (100%)
