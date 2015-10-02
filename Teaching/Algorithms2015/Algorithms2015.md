@@ -6,7 +6,7 @@ categories: teaching
 
 ### Course Description
 Taught in French
-lectures given by [Pierre Kelsen](http://wwwen.uni.lu/research/fstc/laboratory_of_advanced_software_systems_lassy/members/pierre_kelsen)
+lectures given by [Pierre Kelsen](http://wwwen.uni.lu/recherche/fstc/computer_science_and_communications_research_unit/members/pierre_kelsen)
 
 #### Evaluation:
 Practical sessions (40%), Final Exam (60%)
