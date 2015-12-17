@@ -27,9 +27,9 @@ Familiariser les étudiant(e)s avec les algorithmes et structures de données fo
 ###Slides from the Practical Session
 + TD1 - 21 Septembre 2015
 + TD2 - 28 Septembre 2015
-+ TD2 - 12 Octobre 2015
-+ TD2 - 26 Octobre 2015
-+ TD2 - 9 Novembre 2015
-+ TD2 - 30 Novembre 2015
-+ TD2 - 7 Décembre 2015
-+ TD2 - 14 Décembre 2015
++ TD3 - 12 Octobre 2015
++ TD4 - 26 Octobre 2015
++ TD5 - 9 Novembre 2015
++ TD6 - 30 Novembre 2015
++ TD7 - 7 Décembre 2015
++ TD8 - 14 Décembre 2015
