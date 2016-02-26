@@ -24,5 +24,12 @@ Familiariser les étudiant(e)s avec les algorithmes et structures de données fo
 + algorithmes sur les graphes
 + classification d'algorithmes
 
-###Slides from the Practical Session
-To be announced
+### Sessions
++ TD1 - 22 février 2016
++ TD2 - 29 février 2016
++ TD3 - 7 mars 2016
++ TD4 - 21 mars 2016
++ TD5 - 4 avril 2016
++ TD6 - 18 Avril 2016
++ TD7 - 2 Mai 2016
++ TD8 - 9 Mai 2016
