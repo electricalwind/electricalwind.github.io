@@ -26,6 +26,6 @@ A total of 12 vulnerabilities were reported.
 * [CVE-2011-3874](3874/README.md)
 * [CVE-2011-3918](3918/README.md)
 * [CVE-2011-3975](3975/README.md)
-* [CVE-2011-4274](4274/README.md)
+* [CVE-2011-4276](4276/README.md)
 
  

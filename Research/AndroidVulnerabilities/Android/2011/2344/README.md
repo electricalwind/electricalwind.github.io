@@ -2,7 +2,7 @@
 >1 Corresponding Issue was found with one commit  and 3 patched file 
 
 More details [here].
-[here]: http://www.cvedetails.com/cve/CVE-2010-1807/ "here"
+[here]: http://www.cvedetails.com/cve/CVE-2011-2344/ "here"
 
 ##Description
 Android Picasa in Android 3.0 and 2.x through 2.3.4 uses a cleartext HTTP session when transmitting the authToken obtained from ClientLogin, which allows remote attackers to gain privileges and access private pictures and web albums by sniffing the token from connections with picasaweb.google.com.	
