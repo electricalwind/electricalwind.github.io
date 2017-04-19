@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Matthieu Jimenez Website</title>
+    <link>http://jimenez.lu/categories/about/index.xml</link>
+    <description>Recent content in About on Matthieu Jimenez Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://jimenez.lu/categories/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About Me</title>
+      <link>http://jimenez.lu/about/</link>
+      <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jimenez.lu/about/</guid>
+      <description>
+
+&lt;p&gt;Hello everyone,&lt;/p&gt;
+
+&lt;p&gt;On this page you will find all relevant information about me. For more detailed information, I invite you to visit my &lt;a href=&#34;https://www.linkedin.com/in/matthieujimenez/&#34;&gt;Linkedin&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Since October 2014, I&amp;rsquo;m a PhD student in the Serval team of the SnT Interdisciplinary Centre at the University of Luxembourg.
+I am also a teaching assistant at the FSTC(Faculty of Science, Technology and Communication ) of the University of Luxembourg.&lt;/p&gt;
+
+&lt;p&gt;My research interests are Vulnerability Prediction Models and Natural Language Processing.&lt;/p&gt;
+
+&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;em&gt;Since October 2014&lt;/em&gt;)  &lt;strong&gt;PhD Student&lt;/strong&gt; - Vulnerability Prediction Modeling -
+                                                                        University of Luxembourg, Interdisciplinary Center of Security and Trust (Serval Team)&lt;/li&gt;
+&lt;li&gt;(&lt;em&gt;2014&lt;/em&gt;) &lt;strong&gt;Engineer&amp;rsquo;s degree (equivalent to MSc) &lt;/strong&gt; in Computer Science (major in
+              Computer Security) obtained with highest honors (rank 1 in final year) - Polytech Nice Sophia Antipolis
+              - University of Nice, France&lt;/li&gt;
+&lt;li&gt;(&lt;em&gt;2012 - 2013&lt;/em&gt;) &lt;strong&gt;One year Exchange&lt;/strong&gt; - Polytechnique Montréal, Montréal Québec,
+              Canada&lt;/li&gt;
+&lt;li&gt;(&lt;em&gt;2011&lt;/em&gt;) &lt;strong&gt;2 years degree in Applied Science&lt;/strong&gt; - Polytech Annecy-Chambéry -
+              University of Savoy, France
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;experiences-and-projects&#34;&gt;Experiences and Projects&lt;/h2&gt;
+
+&lt;h3 id=&#34;teaching&#34;&gt;Teaching&lt;/h3&gt;
+
+&lt;p&gt;(&lt;em&gt;Since 2014&lt;/em&gt;) &lt;strong&gt;Teaching assistant&lt;/strong&gt; - FSTC University of Luxembourg&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Algorithms&lt;/li&gt;
+&lt;li&gt;Introduction to Computer Science&lt;/li&gt;
+&lt;li&gt;Software Testing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;projects&#34;&gt;Projects&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;em&gt;September - March 2014&lt;/em&gt;) &lt;strong&gt;Member of the SMARTCAMPUS project Group&lt;/strong&gt; - SMARTCAMPUS
+              project aims to equip the SophiaTech campus (Sophia Antipolis, France) with sensors collecting data
+              about campus’ usage. Our role in this project was to create an architecture able to collect those data
+              and to configure sensors in the campus remotely. Our primary concern was to deal with notion of
+              scalability, heterogeneity, remote configuration and data accessibility - Polytech Nice Sophia Antipolis
+              - University of Nice, France&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;industrial-experiences&#34;&gt;Industrial Experiences&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;em&gt;2014 - 6 months&lt;/em&gt;) &lt;strong&gt;Security Trainee&lt;/strong&gt; SEPAMail&amp;trade; security - StreamMind - Paris,
+              France&lt;/li&gt;
+&lt;li&gt;(&lt;em&gt;2013 - 4 months&lt;/em&gt;) &lt;strong&gt;Security Trainee&lt;/strong&gt; IPv6 security - Orange - Valbonne, France&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;
+
+&lt;h3 id=&#34;computer-science&#34;&gt;Computer Science&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Languages: Java, Kotlin, C++&lt;/li&gt;
+&lt;li&gt;Web: HTML5, CSS, JavaScrip&lt;/li&gt;
+&lt;li&gt;Office: Latex, Word, Keynote, Pages&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;languages&#34;&gt;Languages&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;French: Native&lt;/li&gt;
+&lt;li&gt;English: Fluent&lt;/li&gt;
+&lt;li&gt;German: Medium&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

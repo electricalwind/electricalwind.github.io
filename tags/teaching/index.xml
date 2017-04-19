@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching on Matthieu Jimenez Website</title>
+    <link>http://jimenez.lu/tags/teaching/index.xml</link>
+    <description>Recent content in Teaching on Matthieu Jimenez Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://jimenez.lu/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Data Structure and Algorithmic</title>
+      <link>http://jimenez.lu/teaching/algorithmic/</link>
+      <pubDate>Mon, 17 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jimenez.lu/teaching/algorithmic/</guid>
+      <description>
+
+&lt;h3 id=&#34;course-description&#34;&gt;Course Description&lt;/h3&gt;
+
+&lt;p&gt;Taught in French
+I&amp;rsquo;m responsible of the practical session of this class and the
+lectures are given by &lt;a href=&#34;http://wwwen.uni.lu/research/fstc/laboratory_of_advanced_software_systems_lassy/members/pierre_kelsen&#34;&gt;Pierre Kelsen&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;evaluation&#34;&gt;Evaluation:&lt;/h4&gt;
+
+&lt;p&gt;Practical sessions (40%), Final Exam (60%)&lt;/p&gt;
+
+&lt;h4 id=&#34;description&#34;&gt;Description:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Algorithms&lt;/li&gt;
+&lt;li&gt;Complexity&lt;/li&gt;
+&lt;li&gt;Sorting&lt;/li&gt;
+&lt;li&gt;Data Structure&lt;/li&gt;
+&lt;li&gt;Hash&lt;/li&gt;
+&lt;li&gt;Graph&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;statistics&#34;&gt;Statistics&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;~15 hours of practical session per semester&lt;/li&gt;
+&lt;li&gt;15 to 50 students&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Computer</title>
+      <link>http://jimenez.lu/teaching/Intro/</link>
+      <pubDate>Mon, 17 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jimenez.lu/teaching/Intro/</guid>
+      <description>
+
+&lt;h3 id=&#34;course-description&#34;&gt;Course Description&lt;/h3&gt;
+
+&lt;p&gt;Taught in French
+I&amp;rsquo;m responsible of the practical session of this class and the
+lectures are given by &lt;a href=&#34;http://wwwen.uni.lu/research/fstc/laboratory_of_advanced_software_systems_lassy/members/pierre_kelsen&#34;&gt;Pierre Kelsen&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;evaluation&#34;&gt;Evaluation:&lt;/h4&gt;
+
+&lt;p&gt;Practical sessions (40%), Final Exam (60%)&lt;/p&gt;
+
+&lt;h4 id=&#34;description&#34;&gt;Description:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Algorithms&lt;/li&gt;
+&lt;li&gt;Complexity&lt;/li&gt;
+&lt;li&gt;Sorting&lt;/li&gt;
+&lt;li&gt;Data Structure&lt;/li&gt;
+&lt;li&gt;Hash&lt;/li&gt;
+&lt;li&gt;Graph&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;statistics&#34;&gt;Statistics&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;~15 hours of practical session per semester&lt;/li&gt;
+&lt;li&gt;15 to 50 students&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Software Testing</title>
+      <link>http://jimenez.lu/teaching/st/</link>
+      <pubDate>Mon, 17 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jimenez.lu/teaching/st/</guid>
+      <description>
+
+&lt;h3 id=&#34;course-description&#34;&gt;Course Description&lt;/h3&gt;
+
+&lt;p&gt;Taught in French
+I&amp;rsquo;m responsible of the practical session of this class and the
+lectures are given by &lt;a href=&#34;http://wwwen.uni.lu/research/fstc/laboratory_of_advanced_software_systems_lassy/members/pierre_kelsen&#34;&gt;Pierre Kelsen&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;evaluation&#34;&gt;Evaluation:&lt;/h4&gt;
+
+&lt;p&gt;Practical sessions (40%), Final Exam (60%)&lt;/p&gt;
+
+&lt;h4 id=&#34;description&#34;&gt;Description:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Algorithms&lt;/li&gt;
+&lt;li&gt;Complexity&lt;/li&gt;
+&lt;li&gt;Sorting&lt;/li&gt;
+&lt;li&gt;Data Structure&lt;/li&gt;
+&lt;li&gt;Hash&lt;/li&gt;
+&lt;li&gt;Graph&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;statistics&#34;&gt;Statistics&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;~15 hours of practical session per semester&lt;/li&gt;
+&lt;li&gt;15 to 50 students&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

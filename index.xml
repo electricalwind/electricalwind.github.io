@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matthieu Jimenez Website</title>
+    <link>http://jimenez.lu/index.xml</link>
+    <description>Recent content on Matthieu Jimenez Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://jimenez.lu/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>New Website</title>
+      <link>http://jimenez.lu/post/newWebSite/</link>
+      <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jimenez.lu/post/newWebSite/</guid>
+      <description>&lt;p&gt;Hello everyone,&lt;/p&gt;
+
+&lt;p&gt;The website has been completely refactored and should hopefully be updated more frequently.&lt;/p&gt;
+
+&lt;p&gt;A project section appeared describing the projects I&amp;rsquo;m currently working on or worked on.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data Structure and Algorithmic</title>
+      <link>http://jimenez.lu/teaching/algorithmic/</link>
+      <pubDate>Mon, 17 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jimenez.lu/teaching/algorithmic/</guid>
+      <description>
+
+&lt;h3 id=&#34;course-description&#34;&gt;Course Description&lt;/h3&gt;
+
+&lt;p&gt;Taught in French
+I&amp;rsquo;m responsible of the practical session of this class and the
+lectures are given by &lt;a href=&#34;http://wwwen.uni.lu/research/fstc/laboratory_of_advanced_software_systems_lassy/members/pierre_kelsen&#34;&gt;Pierre Kelsen&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;evaluation&#34;&gt;Evaluation:&lt;/h4&gt;
+
+&lt;p&gt;Practical sessions (40%), Final Exam (60%)&lt;/p&gt;
+
+&lt;h4 id=&#34;description&#34;&gt;Description:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Algorithms&lt;/li&gt;
+&lt;li&gt;Complexity&lt;/li&gt;
+&lt;li&gt;Sorting&lt;/li&gt;
+&lt;li&gt;Data Structure&lt;/li&gt;
+&lt;li&gt;Hash&lt;/li&gt;
+&lt;li&gt;Graph&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;statistics&#34;&gt;Statistics&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;~15 hours of practical session per semester&lt;/li&gt;
+&lt;li&gt;15 to 50 students&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Files Metrics</title>
+      <link>http://jimenez.lu/project/utils/FileMetrics/</link>
+      <pubDate>Mon, 17 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jimenez.lu/project/utils/FileMetrics/</guid>
+      <description>
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Written in Kotlin, this project aims at providing a library for computing common metrics of a C file from Java program.
+The analysis is based on the result provided by the &lt;a href=&#34;https://github.com/fabsx00/joern&#34;&gt;joern tool&lt;/a&gt;.
+To allow a better handling of dependency the tool has been ported organized for maven and only the parts relevant to this project were kept.
+This version can be found in the joern repository&lt;/p&gt;
+
+&lt;h2 id=&#34;use&#34;&gt;Use&lt;/h2&gt;
+
+&lt;p&gt;The library is written in Kotlin but can be used from Java.
+The library take the File content (String) as an input.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;val cm = CodeMetrics(fileContent)
+cm.cyclomaticComplexity()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Different functions can then be called to retrieved the different Metrics&lt;/p&gt;
+
+&lt;h2 id=&#34;computed-metrics&#34;&gt;Computed Metrics&lt;/h2&gt;
+
+&lt;p&gt;List of Code Metrics:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Blank Line&lt;/li&gt;
+&lt;li&gt;LOC&lt;/li&gt;
+&lt;li&gt;preprocessor Lines&lt;/li&gt;
+&lt;li&gt;Lines of comments&lt;/li&gt;
+&lt;li&gt;Comment/LOC ratio&lt;/li&gt;
+&lt;li&gt;Number of Function&lt;/li&gt;
+&lt;li&gt;Number of Variable declaration&lt;/li&gt;
+&lt;li&gt;Cyclomatic Complexity of all Function&lt;/li&gt;
+&lt;li&gt;Essential Complexity of all Function&lt;/li&gt;
+&lt;li&gt;FANIN&lt;/li&gt;
+&lt;li&gt;FANOUT&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;other-uses&#34;&gt;Other uses&lt;/h2&gt;
+
+&lt;p&gt;This library uses the following function to compute the metrics that can be reuse in other context:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Function level&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;list of Parameters  (distinction possible between reference and value)&lt;/li&gt;
+&lt;li&gt;list of calls&lt;/li&gt;
+&lt;li&gt;list of assignment&lt;/li&gt;
+&lt;li&gt;list of declaration&lt;/li&gt;
+&lt;li&gt;all complexity metrics + nesting + fan in / fan out
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;File Level&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;list of function names&lt;/li&gt;
+&lt;li&gt;list of Global variable&lt;/li&gt;
+&lt;li&gt;map of call made by a function&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Computer</title>
+      <link>http://jimenez.lu/teaching/Intro/</link>
+      <pubDate>Mon, 17 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jimenez.lu/teaching/Intro/</guid>
+      <description>
+
+&lt;h3 id=&#34;course-description&#34;&gt;Course Description&lt;/h3&gt;
+
+&lt;p&gt;Taught in French
+I&amp;rsquo;m responsible of the practical session of this class and the
+lectures are given by &lt;a href=&#34;http://wwwen.uni.lu/research/fstc/laboratory_of_advanced_software_systems_lassy/members/pierre_kelsen&#34;&gt;Pierre Kelsen&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;evaluation&#34;&gt;Evaluation:&lt;/h4&gt;
+
+&lt;p&gt;Practical sessions (40%), Final Exam (60%)&lt;/p&gt;
+
+&lt;h4 id=&#34;description&#34;&gt;Description:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Algorithms&lt;/li&gt;
+&lt;li&gt;Complexity&lt;/li&gt;
+&lt;li&gt;Sorting&lt;/li&gt;
+&lt;li&gt;Data Structure&lt;/li&gt;
+&lt;li&gt;Hash&lt;/li&gt;
+&lt;li&gt;Graph&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;statistics&#34;&gt;Statistics&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;~15 hours of practical session per semester&lt;/li&gt;
+&lt;li&gt;15 to 50 students&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My little Plugin 4 greycat</title>
+      <link>http://jimenez.lu/project/greycat/MyLittlePlugin/</link>
+      <pubDate>Mon, 17 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jimenez.lu/project/greycat/MyLittlePlugin/</guid>
+      <description>
+
+&lt;p&gt;This library bring additional actions to the &lt;a href=&#34;https://github.com/datathings/greycat&#34;&gt;Greycat&lt;/a&gt; project. This library is compatible with the latest Greycat api (6).
+Compatibility with previous versions of Greycat (formerly MWDB) api can be found in previous release.
+The release of the plugin will follow the release of Greycat.&lt;/p&gt;
+
+&lt;h3 id=&#34;actions&#34;&gt;Actions?&lt;/h3&gt;
+
+&lt;p&gt;Actions are reusable elements hiding low-level, asynchronous task primitives behind an expressive API.
+ Actions allows to traverse and manipulate the graph and can be chained to form a task.&lt;/p&gt;
+
+&lt;h3 id=&#34;why-additional-action&#34;&gt;Why additional Action?&lt;/h3&gt;
+
+&lt;p&gt;A great number of action are already implemented and available in Greycat, please refer to the  greycat.internal.task package of Greycat.
+However, thinking and implementing every possible actions would:
+1) be impossible
+2) drastically increase the size of the project.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s why only basic, i.e., atomic, actions are implemented.&lt;/p&gt;
+
+&lt;p&gt;Yet, users might need more composed actions like Injecting an object as a variable or Putting the result of a get action in a variable instead of in the result.
+This library aims at providing such actions and will evolves alongside Greycat, i.e.,  some actions might be added as a need for it is express and other removed to be directly integrated within Greycat.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-are-those-actions&#34;&gt;What are those Actions&lt;/h3&gt;
+
+&lt;p&gt;Currently offered actions are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;doc/CheckForFuture.md&#34;&gt;Check For Future&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;doc/Count.md&#34;&gt;Count&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;doc/ExecuteAtWorldAndTime.md&#34;&gt;Execute at World and Time&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;doc/TraverseOrAttributeInVar.md&#34;&gt;Traverse Or Attribute in Var&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;doc/IfEmptyThen.md&#34;&gt;If empty then&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;doc/IfEmptyThenElse.md&#34;&gt;If empty then else&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;doc/IfNotEmptyThen.md&#34;&gt;If not empty then&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;doc/IfNotEmptyThenElse.md&#34;&gt;If not empty then else&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;doc/InjectAsVar.md&#34;&gt;Inject as Var&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;doc/Increment.md&#34;&gt;Increment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;doc/KeepFirstResult.md&#34;&gt;Keep first result&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;doc/FlipVars.md&#34;&gt;Flip Vars&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;doc/FlipVarAndResult.md&#34;&gt;Flip Var And Result&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;doc/ReadUpdatedTimeVar.md&#34;&gt;Read Updated Time Var&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;doc/TraverseDedup.md&#34;&gt;Traverse Deduplicate&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;can-i-create-my-own-action&#34;&gt;Can I create my own action?&lt;/h3&gt;
+
+&lt;p&gt;Of course, feel free to take a look at the project to see how to implement your own action and see how to integrate them to your project.&lt;/p&gt;
+
+&lt;h3 id=&#34;how-to-use-this-library&#34;&gt;How to use this library?&lt;/h3&gt;
+
+&lt;p&gt;The library provides a maven configuration file, so just download the project, intall it using mvn install and add the following dependency to your project.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;     &amp;lt;dependency&amp;gt;
+         &amp;lt;groupId&amp;gt;lu.jimenez.research&amp;lt;/groupId&amp;gt;
+         &amp;lt;artifactId&amp;gt;my-little-plugin&amp;lt;/artifactId&amp;gt;
+         &amp;lt;version&amp;gt;$version&amp;lt;/version&amp;gt;
+     &amp;lt;/dependency&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A jar version might be released in the future.&lt;/p&gt;
+
+&lt;p&gt;To use actions in your project import statically the actions you are interested in, in  myLittleActions file.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;import static lu.jimenez.research.mylittleplugin.MyLittleActions.*;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then you can call them when you want within a task :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;        newTask()
+                .readGlobalIndexAll(&amp;quot;nodes&amp;quot;)
+                .traverse(&amp;quot;children&amp;quot;) //formerly get
+                .then(traverseOrAttributeInVar(&amp;quot;name&amp;quot;, &amp;quot;childrenName&amp;quot;))
+                .execute(graph, null);
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Paw 4 greycat</title>
+      <link>http://jimenez.lu/project/greycat/paw/</link>
+      <pubDate>Mon, 17 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jimenez.lu/project/greycat/paw/</guid>
+      <description>
+
+&lt;p&gt;This library bring additional functionality to the &lt;a href=&#34;https://github.com/datathings/greycat&#34;&gt;GreyCat&lt;/a&gt; project.
+This library is compatible with the latest Greycat api.&lt;/p&gt;
+
+&lt;h3 id=&#34;token&#34;&gt;Token?&lt;/h3&gt;
+
+&lt;p&gt;This project aims at providing a way to tokenize all of string that one might want to store in the graph.
+In addition to saving space, it also enable further analytics. Every tokenized content being accessible through a vocabulary node globally indexed.
+The library supports time and world, every new word being created at the Beginning of Time and first world.&lt;/p&gt;
+
+&lt;h3 id=&#34;tokenizer&#34;&gt;Tokenizer&lt;/h3&gt;
+
+&lt;p&gt;Currently the library embed several Tokenizer&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Identity Tokenizer (return the exact same string)&lt;/li&gt;
+&lt;li&gt;Simple Tokenizer, space based&lt;/li&gt;
+&lt;li&gt;UTF Tokenizer&lt;/li&gt;
+&lt;li&gt;English Tokenizer&lt;/li&gt;
+&lt;li&gt;Twitter Tokenizer&lt;/li&gt;
+&lt;li&gt;C Tokenizer&lt;/li&gt;
+&lt;li&gt;CPP Tokenizer&lt;/li&gt;
+&lt;li&gt;Java Tokenizer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some preprocessors are available to all Tokenizer:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lower Case&lt;/li&gt;
+&lt;li&gt;Upper Case&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;More can be implemented on request.&lt;/p&gt;
+
+&lt;p&gt;An option to keep all delimiters is already offered for most Tokenizer(at the exception of the C and C++ ones).&lt;/p&gt;
+
+&lt;h3 id=&#34;before-use-notice&#34;&gt;Before Use notice&lt;/h3&gt;
+
+&lt;p&gt;The plugin can be used on any already existing graph, however make sure that all your global index were created at the beginning of time as it is the default behaviour of the library to create global index at the beginning of time. Already existing global index created after the beginning of time would create a modification of the past that would create unpredictable side effects.&lt;/p&gt;
+
+&lt;h3 id=&#34;set-of-provided-actions&#34;&gt;Set of Provided Actions&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Initialize Voacabulary&lt;/li&gt;
+&lt;li&gt;Retrieve Vocabulary Node&lt;/li&gt;
+&lt;li&gt;Get or create Token From String&lt;/li&gt;
+&lt;li&gt;Tokenize String Using Tokenizer&lt;/li&gt;
+&lt;li&gt;Create or Update Tokenize Relation to Node&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;how-to-use-this-library&#34;&gt;How to use this library?&lt;/h3&gt;
+
+&lt;p&gt;In progress&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Software Testing</title>
+      <link>http://jimenez.lu/teaching/st/</link>
+      <pubDate>Mon, 17 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jimenez.lu/teaching/st/</guid>
+      <description>
+
+&lt;h3 id=&#34;course-description&#34;&gt;Course Description&lt;/h3&gt;
+
+&lt;p&gt;Taught in French
+I&amp;rsquo;m responsible of the practical session of this class and the
+lectures are given by &lt;a href=&#34;http://wwwen.uni.lu/research/fstc/laboratory_of_advanced_software_systems_lassy/members/pierre_kelsen&#34;&gt;Pierre Kelsen&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;evaluation&#34;&gt;Evaluation:&lt;/h4&gt;
+
+&lt;p&gt;Practical sessions (40%), Final Exam (60%)&lt;/p&gt;
+
+&lt;h4 id=&#34;description&#34;&gt;Description:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Algorithms&lt;/li&gt;
+&lt;li&gt;Complexity&lt;/li&gt;
+&lt;li&gt;Sorting&lt;/li&gt;
+&lt;li&gt;Data Structure&lt;/li&gt;
+&lt;li&gt;Hash&lt;/li&gt;
+&lt;li&gt;Graph&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;statistics&#34;&gt;Statistics&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;~15 hours of practical session per semester&lt;/li&gt;
+&lt;li&gt;15 to 50 students&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tools Utils</title>
+      <link>http://jimenez.lu/project/utils/toolsUtils/</link>
+      <pubDate>Mon, 17 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jimenez.lu/project/utils/toolsUtils/</guid>
+      <description>
+
+&lt;p&gt;This library gather all utilitary methods that are used by the different modules of the bugs and vulnerabilities project and that could be used in other context.&lt;/p&gt;
+
+&lt;h2 id=&#34;content&#34;&gt;Content&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Git utilitary + diff&lt;/li&gt;
+&lt;li&gt;MultiThreading&lt;/li&gt;
+&lt;li&gt;Regexp&lt;/li&gt;
+&lt;li&gt;Serialization&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/electricalwind/tools-utils/doc/&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;git&#34;&gt;Git&lt;/h2&gt;
+
+&lt;p&gt;This module provide some useful function when trying to mine a git repository&lt;/p&gt;
+
+&lt;h3 id=&#34;use&#34;&gt;Use&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt; val git = GitUtilitary(&amp;quot;pathto .git folder&amp;quot;)
+ git.retrievingFileFromSpecificCommit(&amp;quot;hashOfCommit&amp;quot;,&amp;quot;fullpathOfFile&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;class&#34;&gt;Class&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;data class DeveloperHistory(val totalNumberOfDeveloper: Int = 0, val currentNumberOfDeveloper: Int = 0, val numberOfChanges: Int = 0) : Serializable
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;methods&#34;&gt;Methods&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;retrievingFileFromSpecificCommit&lt;/li&gt;
+&lt;li&gt;listOfCommitImpactingAFile&lt;/li&gt;
+&lt;li&gt;previousCommitImpactingAFile&lt;/li&gt;
+&lt;li&gt;gitBlame&lt;/li&gt;
+&lt;li&gt;gitBlameNbDev&lt;/li&gt;
+&lt;li&gt;getDevHistoryOfAFile (use Developer History class)&lt;/li&gt;
+&lt;li&gt;getDeltaFile (Delta History)&lt;/li&gt;
+&lt;li&gt;getListOfModifiedFile&lt;/li&gt;
+&lt;li&gt;getCommitMessage&lt;/li&gt;
+&lt;li&gt;getTimeCommit&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;diff&#34;&gt;Diff&lt;/h3&gt;
+
+&lt;p&gt;This side module provides methods for computing unified diff or delta of between 2 versions of a file&lt;/p&gt;
+
+&lt;h2 id=&#34;multithreading&#34;&gt;Multithreading&lt;/h2&gt;
+
+&lt;p&gt;This object contains methods to launch a function on a list in a multithreaded way.
+So far, 3 distinct version exist:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;one in case the function return a single element (onFunctionWithSingleOutput)&lt;/li&gt;
+&lt;li&gt;one in case the function return a list of result that we need to flatten (onFunctionWithListOutput)&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;one in case the function return a list of result that need to be gathered in a list of list. (onFunctionWithListListOutput)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Multithreading.onFunctionWithListOutput(myList, { element -&amp;gt; function(element)},numberThread)
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This multithreading function relies on the JAVA Executors and CompletionService&lt;/p&gt;
+
+&lt;h2 id=&#34;regex&#34;&gt;Regex&lt;/h2&gt;
+
+&lt;p&gt;This object gather several methods based on regexp:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;extract url from a string&lt;/li&gt;
+&lt;li&gt;recursive List Of Files Of A Directory with a given extension&lt;/li&gt;
+&lt;li&gt;bag of Words&lt;/li&gt;
+&lt;li&gt;removing C style comment&lt;/li&gt;
+&lt;li&gt;find out if one keyword is present in a string&lt;/li&gt;
+&lt;li&gt;map of frequency&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;serialization&#34;&gt;Serialization&lt;/h2&gt;
+
+&lt;p&gt;This object contains method to load/save list or map of Serializable object&lt;/p&gt;
+
+&lt;h2 id=&#34;normalizing-path-folder&#34;&gt;Normalizing Path Folder&lt;/h2&gt;
+
+&lt;p&gt;This object contains a single method to normalize the path of a folder, i.e., adding the right separator at the end if missing&lt;/p&gt;
+
+&lt;h2 id=&#34;ressource-extractor&#34;&gt;Ressource Extractor&lt;/h2&gt;
+
+&lt;p&gt;This object contains two method one for downloading a resource from the internet, the other to unzip a file&lt;/p&gt;
+
+&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+
+&lt;p&gt;This library is coded in Kotlin 1.0.3 and use Speck as a testing framework&lt;/p&gt;
+
+&lt;h2 id=&#34;bug-and-feature-request&#34;&gt;Bug and feature request&lt;/h2&gt;
+
+&lt;p&gt;Use the &lt;a href=&#34;https://github.com/electricalwind/bvcg/issues&#34;&gt;github issue&lt;/a&gt; page to report bugs or ask for new features&lt;/p&gt;
+
+&lt;h2 id=&#34;licence&#34;&gt;Licence&lt;/h2&gt;
+
+&lt;p&gt;The tool is open source and release under apache 2 Licence.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>http://jimenez.lu/about/</link>
+      <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jimenez.lu/about/</guid>
+      <description>
+
+&lt;p&gt;Hello everyone,&lt;/p&gt;
+
+&lt;p&gt;On this page you will find all relevant information about me. For more detailed information, I invite you to visit my &lt;a href=&#34;https://www.linkedin.com/in/matthieujimenez/&#34;&gt;Linkedin&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Since October 2014, I&amp;rsquo;m a PhD student in the Serval team of the SnT Interdisciplinary Centre at the University of Luxembourg.
+I am also a teaching assistant at the FSTC(Faculty of Science, Technology and Communication ) of the University of Luxembourg.&lt;/p&gt;
+
+&lt;p&gt;My research interests are Vulnerability Prediction Models and Natural Language Processing.&lt;/p&gt;
+
+&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;em&gt;Since October 2014&lt;/em&gt;)  &lt;strong&gt;PhD Student&lt;/strong&gt; - Vulnerability Prediction Modeling -
+                                                                        University of Luxembourg, Interdisciplinary Center of Security and Trust (Serval Team)&lt;/li&gt;
+&lt;li&gt;(&lt;em&gt;2014&lt;/em&gt;) &lt;strong&gt;Engineer&amp;rsquo;s degree (equivalent to MSc) &lt;/strong&gt; in Computer Science (major in
+              Computer Security) obtained with highest honors (rank 1 in final year) - Polytech Nice Sophia Antipolis
+              - University of Nice, France&lt;/li&gt;
+&lt;li&gt;(&lt;em&gt;2012 - 2013&lt;/em&gt;) &lt;strong&gt;One year Exchange&lt;/strong&gt; - Polytechnique Montréal, Montréal Québec,
+              Canada&lt;/li&gt;
+&lt;li&gt;(&lt;em&gt;2011&lt;/em&gt;) &lt;strong&gt;2 years degree in Applied Science&lt;/strong&gt; - Polytech Annecy-Chambéry -
+              University of Savoy, France
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;experiences-and-projects&#34;&gt;Experiences and Projects&lt;/h2&gt;
+
+&lt;h3 id=&#34;teaching&#34;&gt;Teaching&lt;/h3&gt;
+
+&lt;p&gt;(&lt;em&gt;Since 2014&lt;/em&gt;) &lt;strong&gt;Teaching assistant&lt;/strong&gt; - FSTC University of Luxembourg&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Algorithms&lt;/li&gt;
+&lt;li&gt;Introduction to Computer Science&lt;/li&gt;
+&lt;li&gt;Software Testing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;projects&#34;&gt;Projects&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;em&gt;September - March 2014&lt;/em&gt;) &lt;strong&gt;Member of the SMARTCAMPUS project Group&lt;/strong&gt; - SMARTCAMPUS
+              project aims to equip the SophiaTech campus (Sophia Antipolis, France) with sensors collecting data
+              about campus’ usage. Our role in this project was to create an architecture able to collect those data
+              and to configure sensors in the campus remotely. Our primary concern was to deal with notion of
+              scalability, heterogeneity, remote configuration and data accessibility - Polytech Nice Sophia Antipolis
+              - University of Nice, France&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;industrial-experiences&#34;&gt;Industrial Experiences&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;em&gt;2014 - 6 months&lt;/em&gt;) &lt;strong&gt;Security Trainee&lt;/strong&gt; SEPAMail&amp;trade; security - StreamMind - Paris,
+              France&lt;/li&gt;
+&lt;li&gt;(&lt;em&gt;2013 - 4 months&lt;/em&gt;) &lt;strong&gt;Security Trainee&lt;/strong&gt; IPv6 security - Orange - Valbonne, France&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;
+
+&lt;h3 id=&#34;computer-science&#34;&gt;Computer Science&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Languages: Java, Kotlin, C++&lt;/li&gt;
+&lt;li&gt;Web: HTML5, CSS, JavaScrip&lt;/li&gt;
+&lt;li&gt;Office: Latex, Word, Keynote, Pages&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;languages&#34;&gt;Languages&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;French: Native&lt;/li&gt;
+&lt;li&gt;English: Fluent&lt;/li&gt;
+&lt;li&gt;German: Medium&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>http://jimenez.lu/publications/</link>
+      <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jimenez.lu/publications/</guid>
+      <description>
+
+&lt;h3 id=&#34;international-conferences&#34;&gt;International Conferences&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;(&lt;em&gt;2016&lt;/em&gt;) Matthieu Jimenez, Mike Papadakis, Yves Le Traon. &amp;ldquo;An Empirical Analysis of Vulnerabilities in OpenSSL and the Linux Kernel&amp;rdquo;
+        in Proceedings of the 23rd Asia-Pacific Software Engineering Conference (APSEC&amp;rsquo;16), University of Waikato, Hamilton, New Zealand, 6-9 December 2016&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://hdl.handle.net/10993/28628&#34;&gt;OrbiLu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../research/&#34;&gt;Additional Figures&lt;/a&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;(&lt;em&gt;2016&lt;/em&gt;) Matthieu Jimenez, Mike Papadakis, Yves Le Traon. &amp;ldquo;Vulnerability Prediction Models: A case study on the Linux Kernel&amp;rdquo;
+        in Proceedings of the 16th IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM&amp;rsquo;16), Raleigh, USA, 2-3 October 2016&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://hdl.handle.net/10993/28259&#34;&gt;OrbiLu&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;(&lt;em&gt;2016&lt;/em&gt;) Matthieu Jimenez, Mike Papadakis, Tegawende F. Bissyande, Jacques Klein. &amp;ldquo;Profiling Android Vulnerabilities&amp;rdquo; in Proceedings of 2016 IEEE International Conference on Software Quality,
+        Reliability and Security (QRS&amp;rsquo;16) IEEE, p222-229, Vienna, Austria, 1-3 August 2016&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://hdl.handle.net/10993/28093&#34;&gt;OrbiLu&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;international-workshops&#34;&gt;International workshops&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;(&lt;em&gt;2014&lt;/em&gt;) Cyril Cecchinel, Matthieu Jimenez, Sébastien Mosser, Michel Riveill. “An
+        Architecture to Support the Collection of Big Data in the Internet of Things” (workshop) in Proceedings of
+        the International Workshop on Ubiquitous Mobile cloud (co-located with SERVICES) (UMC’14), IEEE, pages 1-8,
+        Anchorage, Alaska, USA, 27-2 June 2014&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://nyx.i3s.unice.fr/proton/biblio/displayReference.php?export=bibtexPerso&amp;amp;&amp;amp;idPaper=2709&#34;&gt;Bibtex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>research</title>
+      <link>http://jimenez.lu/research/</link>
+      <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jimenez.lu/research/</guid>
+      <description>
+
+&lt;p&gt;Here you can access data related to my research&lt;/p&gt;
+
+&lt;h3 id=&#34;profiling-android-vulnerabilities&#34;&gt;Profiling Android vulnerabilities&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/electricalwind/electricalwind.github.io/tree/master/Research/AndroidVulnerabilities/Android&#34;&gt;Repository&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;an-empirical-analysis-of-vulnerabilities-in-openssl-and-the-linux-kernel&#34;&gt;An Empirical Analysis of Vulnerabilities in OpenSSL and the Linux Kernel&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;VulnerabilityAnalysis/vuln.html&#34;&gt;Additional Figures&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

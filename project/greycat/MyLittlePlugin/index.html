@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="generator" content="Hugo 0.19" />
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="My thoughts and rambles">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link rel="icon" type="image/png" href="/images/favicon.ico">
+
+    
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+
+    
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en"/>
+    <link rel="stylesheet" href="/css/ionicons.min.css"/>
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.1.3/material.grey-orange.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/css/hmdl-style.css"/>
+
+
+
+    <title>My little Plugin 4 greycat</title>
+</head>
+
+<body style="background-image: url('/images/lake.jpg');">
+    <div class="hmdl-body mdl-layout mdl-js-layout has-drawer is-upgraded">        
+        <header class="mdl-layout__header mdl-layout__header--transparent mdl-layout__header--scroll">
+            <div class="mdl-layout__header-row">
+                <div class="mdl-layout-spacer"></div>
+                <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="/">Home</a>
+                <a class="mdl-navigation__link" href="/publications/">Publications</a>
+                <a class="mdl-navigation__link" href="/teaching/">Teachings</a>
+                <a class="mdl-navigation__link" href="/post/">Articles</a>
+                <a class="mdl-navigation__link" href="/project/">Projects</a>
+                <a class="mdl-navigation__link" href="/about/">About</a>
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="/">Home</a>
+            <a class="mdl-navigation__link" href="/publications/">Publications</a>
+            <a class="mdl-navigation__link" href="/teaching/">Teachings</a>
+            <a class="mdl-navigation__link" href="/post/">Articles</a>
+            <a class="mdl-navigation__link" href="/project/">Projects</a>
+            <a class="mdl-navigation__link" href="/about/">About</a>
+            </nav>
+        </div>
+
+        <main class="mdl-layout__content">
+
+            <div class="hmdl-page mdl-grid">
+                <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+                    <div class="hmdl-page-banner mdl-card__media mdl-color-text--grey-50" style="background-image: url('/images/sea.jpg'); background-color:#263238;">
+                        <h3 >My Little Plugin 4 Greycat</h3>
+                    </div>
+                    <div class="hmdl-page-meta mdl-color-text--grey-700 mdl-card__supporting-text">
+                        <div class="minilogo" style="background-image: url('/images/me.jpg');"></div>
+                        <div>
+                            <strong>Matthieu Jimenez</strong>
+                            <span>Apr 17, 2017</span>
+                        </div>
+                        <div class="section-spacer"></div>
+                        <div><span>
+                            <a id="repolink" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" href="https://github.com/greycat-incubator/My-Little-Plugin/"><i class="material-icons icon ion-social-github"></i><span class="visuallyhidden">Github</span></a>
+                            <span for="repolink" class="mdl-tooltip">Code Repository</span>
+                        </span></div>
+                    </div>
+                        
+                    <div class="hmdl-page-content mdl-color-text--grey-700 mdl-card__supporting-text">
+                        
+
+<p>This library bring additional actions to the <a href="https://github.com/datathings/greycat">Greycat</a> project. This library is compatible with the latest Greycat api (6).
+Compatibility with previous versions of Greycat (formerly MWDB) api can be found in previous release.
+The release of the plugin will follow the release of Greycat.</p>
+
+<h3 id="actions">Actions?</h3>
+
+<p>Actions are reusable elements hiding low-level, asynchronous task primitives behind an expressive API.
+ Actions allows to traverse and manipulate the graph and can be chained to form a task.</p>
+
+<h3 id="why-additional-action">Why additional Action?</h3>
+
+<p>A great number of action are already implemented and available in Greycat, please refer to the  greycat.internal.task package of Greycat.
+However, thinking and implementing every possible actions would:
+1) be impossible
+2) drastically increase the size of the project.</p>
+
+<p>That&rsquo;s why only basic, i.e., atomic, actions are implemented.</p>
+
+<p>Yet, users might need more composed actions like Injecting an object as a variable or Putting the result of a get action in a variable instead of in the result.
+This library aims at providing such actions and will evolves alongside Greycat, i.e.,  some actions might be added as a need for it is express and other removed to be directly integrated within Greycat.</p>
+
+<h3 id="what-are-those-actions">What are those Actions</h3>
+
+<p>Currently offered actions are:</p>
+
+<ul>
+<li><a href="doc/CheckForFuture.md">Check For Future</a></li>
+<li><a href="doc/Count.md">Count</a></li>
+<li><a href="doc/ExecuteAtWorldAndTime.md">Execute at World and Time</a></li>
+<li><a href="doc/TraverseOrAttributeInVar.md">Traverse Or Attribute in Var</a></li>
+<li><a href="doc/IfEmptyThen.md">If empty then</a></li>
+<li><a href="doc/IfEmptyThenElse.md">If empty then else</a></li>
+<li><a href="doc/IfNotEmptyThen.md">If not empty then</a></li>
+<li><a href="doc/IfNotEmptyThenElse.md">If not empty then else</a></li>
+<li><a href="doc/InjectAsVar.md">Inject as Var</a></li>
+<li><a href="doc/Increment.md">Increment</a></li>
+<li><a href="doc/KeepFirstResult.md">Keep first result</a></li>
+<li><a href="doc/FlipVars.md">Flip Vars</a></li>
+<li><a href="doc/FlipVarAndResult.md">Flip Var And Result</a></li>
+<li><a href="doc/ReadUpdatedTimeVar.md">Read Updated Time Var</a></li>
+<li><a href="doc/TraverseDedup.md">Traverse Deduplicate</a></li>
+</ul>
+
+<h3 id="can-i-create-my-own-action">Can I create my own action?</h3>
+
+<p>Of course, feel free to take a look at the project to see how to implement your own action and see how to integrate them to your project.</p>
+
+<h3 id="how-to-use-this-library">How to use this library?</h3>
+
+<p>The library provides a maven configuration file, so just download the project, intall it using mvn install and add the following dependency to your project.</p>
+
+<pre><code>     &lt;dependency&gt;
+         &lt;groupId&gt;lu.jimenez.research&lt;/groupId&gt;
+         &lt;artifactId&gt;my-little-plugin&lt;/artifactId&gt;
+         &lt;version&gt;$version&lt;/version&gt;
+     &lt;/dependency&gt;
+</code></pre>
+
+<p>A jar version might be released in the future.</p>
+
+<p>To use actions in your project import statically the actions you are interested in, in  myLittleActions file.</p>
+
+<pre><code class="language-java">import static lu.jimenez.research.mylittleplugin.MyLittleActions.*;
+</code></pre>
+
+<p>Then you can call them when you want within a task :</p>
+
+<pre><code class="language-java">        newTask()
+                .readGlobalIndexAll(&quot;nodes&quot;)
+                .traverse(&quot;children&quot;) //formerly get
+                .then(traverseOrAttributeInVar(&quot;name&quot;, &quot;childrenName&quot;))
+                .execute(graph, null);
+</code></pre>
+
+                    </div>
+                    
+                    <div class="hmdl-page-comments mdl-color-text--primary-contrast mdl-card__supporting-text comments"> 
+                        <a href="http://jimenez.lu/">Matthieu Jimenez</a>
+                    </div>  
+                </div>                
+                <nav class="mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+                    <a href="/project/greycat/paw/">
+                        <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                        <i class="icon ion-android-arrow-back"></i>
+                        </button>
+                        Older
+                    </a>
+                    <div class="section-spacer"></div>
+                    <a href="/project/utils/FileMetrics/">
+                        Newer
+                        <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                            <i class="icon ion-android-arrow-forward"></i>
+                        </button>
+                    </a>
+                </nav>
+ 
+            </div>        
+        </main>
+        <footer class="mdl-mini-footer">
+            <div class="mdl-mini-footer--left-section">                
+                <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" href="mailto:matthieu@jimenez.lu?subject=Hi">
+                    <i class="material-icons_lg icon ion-email"></i>
+                    <span class="visuallyhidden">Email</span>
+                </a>
+                <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" href="https://github.com/electricalwind/">
+                    <i class="material-icons_lg icon ion-social-github"></i>
+                    <span class="visuallyhidden">Github</span>
+                </a>
+                <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" href="https://twitter.com/electricalwind">
+                    <i class="material-icons_lg icon ion-social-twitter "></i>
+                    <span class="visuallyhidden">Twitter</span>
+                </a>
+                <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" href="https://linkedin.com/in/matthieujimenez/">
+                    <i class="material-icons_lg icon ion-social-linkedin "></i>                        
+                    <span class="visuallyhidden">LinkedIn</span>
+                </a>
+
+            </div>
+            <div class="mdl-mini-footer--right-section">
+                <span>© 2017 Matthieu Jimenez</span>
+            </div>
+        </footer>
+        <div class="mdl-layout__obfuscator"></div>
+    </div>
+    <script src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+
+
+</body>
+</html>
+

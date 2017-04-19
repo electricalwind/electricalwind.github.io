@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="generator" content="Hugo 0.19" />
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="My thoughts and rambles">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link rel="icon" type="image/png" href="/images/favicon.ico">
+
+    
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+
+    
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en"/>
+    <link rel="stylesheet" href="/css/ionicons.min.css"/>
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.1.3/material.grey-orange.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/css/hmdl-style.css"/>
+
+
+
+    <title>Tools Utils</title>
+</head>
+
+<body style="background-image: url('/images/lake.jpg');">
+    <div class="hmdl-body mdl-layout mdl-js-layout has-drawer is-upgraded">        
+        <header class="mdl-layout__header mdl-layout__header--transparent mdl-layout__header--scroll">
+            <div class="mdl-layout__header-row">
+                <div class="mdl-layout-spacer"></div>
+                <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="/">Home</a>
+                <a class="mdl-navigation__link" href="/publications/">Publications</a>
+                <a class="mdl-navigation__link" href="/teaching/">Teachings</a>
+                <a class="mdl-navigation__link" href="/post/">Articles</a>
+                <a class="mdl-navigation__link" href="/project/">Projects</a>
+                <a class="mdl-navigation__link" href="/about/">About</a>
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="/">Home</a>
+            <a class="mdl-navigation__link" href="/publications/">Publications</a>
+            <a class="mdl-navigation__link" href="/teaching/">Teachings</a>
+            <a class="mdl-navigation__link" href="/post/">Articles</a>
+            <a class="mdl-navigation__link" href="/project/">Projects</a>
+            <a class="mdl-navigation__link" href="/about/">About</a>
+            </nav>
+        </div>
+
+        <main class="mdl-layout__content">
+
+            <div class="hmdl-page mdl-grid">
+                <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+                    <div class="hmdl-page-banner mdl-card__media mdl-color-text--grey-50" style="background-image: url('/images/sea.jpg'); background-color:#263238;">
+                        <h3 >Tools Utils</h3>
+                    </div>
+                    <div class="hmdl-page-meta mdl-color-text--grey-700 mdl-card__supporting-text">
+                        <div class="minilogo" style="background-image: url('/images/me.jpg');"></div>
+                        <div>
+                            <strong>Matthieu Jimenez</strong>
+                            <span>Apr 17, 2017</span>
+                        </div>
+                        <div class="section-spacer"></div>
+                        <div><span>
+                            <a id="repolink" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" href="https://github.com/electricalwind/tools-utils/"><i class="material-icons icon ion-social-github"></i><span class="visuallyhidden">Github</span></a>
+                            <span for="repolink" class="mdl-tooltip">Code Repository</span>
+                        </span></div>
+                    </div>
+                        
+                    <div class="hmdl-page-content mdl-color-text--grey-700 mdl-card__supporting-text">
+                        
+
+<p>This library gather all utilitary methods that are used by the different modules of the bugs and vulnerabilities project and that could be used in other context.</p>
+
+<h2 id="content">Content</h2>
+
+<ul>
+<li>Git utilitary + diff</li>
+<li>MultiThreading</li>
+<li>Regexp</li>
+<li>Serialization</li>
+</ul>
+
+<p><a href="https://github.com/electricalwind/tools-utils/doc/">Documentation</a></p>
+
+<h2 id="git">Git</h2>
+
+<p>This module provide some useful function when trying to mine a git repository</p>
+
+<h3 id="use">Use</h3>
+
+<pre><code> val git = GitUtilitary(&quot;pathto .git folder&quot;)
+ git.retrievingFileFromSpecificCommit(&quot;hashOfCommit&quot;,&quot;fullpathOfFile&quot;)
+</code></pre>
+
+<h3 id="class">Class</h3>
+
+<pre><code>data class DeveloperHistory(val totalNumberOfDeveloper: Int = 0, val currentNumberOfDeveloper: Int = 0, val numberOfChanges: Int = 0) : Serializable
+</code></pre>
+
+<h3 id="methods">Methods</h3>
+
+<ul>
+<li>retrievingFileFromSpecificCommit</li>
+<li>listOfCommitImpactingAFile</li>
+<li>previousCommitImpactingAFile</li>
+<li>gitBlame</li>
+<li>gitBlameNbDev</li>
+<li>getDevHistoryOfAFile (use Developer History class)</li>
+<li>getDeltaFile (Delta History)</li>
+<li>getListOfModifiedFile</li>
+<li>getCommitMessage</li>
+<li>getTimeCommit</li>
+</ul>
+
+<h3 id="diff">Diff</h3>
+
+<p>This side module provides methods for computing unified diff or delta of between 2 versions of a file</p>
+
+<h2 id="multithreading">Multithreading</h2>
+
+<p>This object contains methods to launch a function on a list in a multithreaded way.
+So far, 3 distinct version exist:</p>
+
+<ul>
+<li>one in case the function return a single element (onFunctionWithSingleOutput)</li>
+<li>one in case the function return a list of result that we need to flatten (onFunctionWithListOutput)</li>
+
+<li><p>one in case the function return a list of result that need to be gathered in a list of list. (onFunctionWithListListOutput)</p>
+
+<pre><code>Multithreading.onFunctionWithListOutput(myList, { element -&gt; function(element)},numberThread)
+</code></pre></li>
+</ul>
+
+<p>This multithreading function relies on the JAVA Executors and CompletionService</p>
+
+<h2 id="regex">Regex</h2>
+
+<p>This object gather several methods based on regexp:</p>
+
+<ul>
+<li>extract url from a string</li>
+<li>recursive List Of Files Of A Directory with a given extension</li>
+<li>bag of Words</li>
+<li>removing C style comment</li>
+<li>find out if one keyword is present in a string</li>
+<li>map of frequency</li>
+</ul>
+
+<h2 id="serialization">Serialization</h2>
+
+<p>This object contains method to load/save list or map of Serializable object</p>
+
+<h2 id="normalizing-path-folder">Normalizing Path Folder</h2>
+
+<p>This object contains a single method to normalize the path of a folder, i.e., adding the right separator at the end if missing</p>
+
+<h2 id="ressource-extractor">Ressource Extractor</h2>
+
+<p>This object contains two method one for downloading a resource from the internet, the other to unzip a file</p>
+
+<h2 id="note">Note</h2>
+
+<p>This library is coded in Kotlin 1.0.3 and use Speck as a testing framework</p>
+
+<h2 id="bug-and-feature-request">Bug and feature request</h2>
+
+<p>Use the <a href="https://github.com/electricalwind/bvcg/issues">github issue</a> page to report bugs or ask for new features</p>
+
+<h2 id="licence">Licence</h2>
+
+<p>The tool is open source and release under apache 2 Licence.</p>
+
+                    </div>
+                    
+                    <div class="hmdl-page-comments mdl-color-text--primary-contrast mdl-card__supporting-text comments"> 
+                        <a href="http://jimenez.lu/">Matthieu Jimenez</a>
+                    </div>  
+                </div>                
+                <nav class="mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+                    <div class="section-spacer"></div>
+                    <a href="/project/greycat/paw/">
+                        Newer
+                        <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                            <i class="icon ion-android-arrow-forward"></i>
+                        </button>
+                    </a>
+                </nav>
+ 
+            </div>        
+        </main>
+        <footer class="mdl-mini-footer">
+            <div class="mdl-mini-footer--left-section">                
+                <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" href="mailto:matthieu@jimenez.lu?subject=Hi">
+                    <i class="material-icons_lg icon ion-email"></i>
+                    <span class="visuallyhidden">Email</span>
+                </a>
+                <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" href="https://github.com/electricalwind/">
+                    <i class="material-icons_lg icon ion-social-github"></i>
+                    <span class="visuallyhidden">Github</span>
+                </a>
+                <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" href="https://twitter.com/electricalwind">
+                    <i class="material-icons_lg icon ion-social-twitter "></i>
+                    <span class="visuallyhidden">Twitter</span>
+                </a>
+                <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" href="https://linkedin.com/in/matthieujimenez/">
+                    <i class="material-icons_lg icon ion-social-linkedin "></i>                        
+                    <span class="visuallyhidden">LinkedIn</span>
+                </a>
+
+            </div>
+            <div class="mdl-mini-footer--right-section">
+                <span>© 2017 Matthieu Jimenez</span>
+            </div>
+        </footer>
+        <div class="mdl-layout__obfuscator"></div>
+    </div>
+    <script src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+
+
+</body>
+</html>
+

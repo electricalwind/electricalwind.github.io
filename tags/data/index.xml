@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data on Matthieu Jimenez Website</title>
+    <link>http://jimenez.lu/tags/data/index.xml</link>
+    <description>Recent content in Data on Matthieu Jimenez Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://jimenez.lu/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>research</title>
+      <link>http://jimenez.lu/research/</link>
+      <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jimenez.lu/research/</guid>
+      <description>
+
+&lt;p&gt;Here you can access data related to my research&lt;/p&gt;
+
+&lt;h3 id=&#34;profiling-android-vulnerabilities&#34;&gt;Profiling Android vulnerabilities&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/electricalwind/electricalwind.github.io/tree/master/Research/AndroidVulnerabilities/Android&#34;&gt;Repository&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;an-empirical-analysis-of-vulnerabilities-in-openssl-and-the-linux-kernel&#34;&gt;An Empirical Analysis of Vulnerabilities in OpenSSL and the Linux Kernel&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;VulnerabilityAnalysis/vuln.html&#34;&gt;Additional Figures&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
