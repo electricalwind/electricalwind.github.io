@@ -18,8 +18,9 @@
 
 &lt;h3 id=&#34;course-description&#34;&gt;Course Description&lt;/h3&gt;
 
-&lt;p&gt;Taught in French
-I&amp;rsquo;m responsible of the practical session of this class and the
+&lt;p&gt;Taught in French.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m responsible of the practical session of this class and the
 lectures are given by &lt;a href=&#34;http://wwwen.uni.lu/research/fstc/laboratory_of_advanced_software_systems_lassy/members/pierre_kelsen&#34;&gt;Pierre Kelsen&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&#34;evaluation&#34;&gt;Evaluation:&lt;/h4&gt;
@@ -56,30 +57,30 @@ lectures are given by &lt;a href=&#34;http://wwwen.uni.lu/research/fstc/laborato
 
 &lt;h3 id=&#34;course-description&#34;&gt;Course Description&lt;/h3&gt;
 
-&lt;p&gt;Taught in French
-I&amp;rsquo;m responsible of the practical session of this class and the
-lectures are given by &lt;a href=&#34;http://wwwen.uni.lu/research/fstc/laboratory_of_advanced_software_systems_lassy/members/pierre_kelsen&#34;&gt;Pierre Kelsen&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Taught in French.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m teaching the full class with Pr Le Traon&lt;/p&gt;
 
 &lt;h4 id=&#34;evaluation&#34;&gt;Evaluation:&lt;/h4&gt;
 
-&lt;p&gt;Practical sessions (40%), Final Exam (60%)&lt;/p&gt;
+&lt;p&gt;Final Exam (100%)&lt;/p&gt;
 
 &lt;h4 id=&#34;description&#34;&gt;Description:&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Algorithms&lt;/li&gt;
-&lt;li&gt;Complexity&lt;/li&gt;
-&lt;li&gt;Sorting&lt;/li&gt;
-&lt;li&gt;Data Structure&lt;/li&gt;
-&lt;li&gt;Hash&lt;/li&gt;
-&lt;li&gt;Graph&lt;/li&gt;
+&lt;li&gt;History of Computer Science&lt;/li&gt;
+&lt;li&gt;Binary system&lt;/li&gt;
+&lt;li&gt;Automata&lt;/li&gt;
+&lt;li&gt;Programming history&lt;/li&gt;
+&lt;li&gt;Version Control System&lt;/li&gt;
+&lt;li&gt;Network&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;statistics&#34;&gt;Statistics&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;~15 hours of practical session per semester&lt;/li&gt;
-&lt;li&gt;15 to 50 students&lt;/li&gt;
+&lt;li&gt;~20 hours of class&lt;/li&gt;
+&lt;li&gt;50 students&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -94,9 +95,10 @@ lectures are given by &lt;a href=&#34;http://wwwen.uni.lu/research/fstc/laborato
 
 &lt;h3 id=&#34;course-description&#34;&gt;Course Description&lt;/h3&gt;
 
-&lt;p&gt;Taught in French
-I&amp;rsquo;m responsible of the practical session of this class and the
-lectures are given by &lt;a href=&#34;http://wwwen.uni.lu/research/fstc/laboratory_of_advanced_software_systems_lassy/members/pierre_kelsen&#34;&gt;Pierre Kelsen&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Taught in English.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m responsible of the practical session of this class and the
+lectures are given by Pr. Le Traon.&lt;/p&gt;
 
 &lt;h4 id=&#34;evaluation&#34;&gt;Evaluation:&lt;/h4&gt;
 
@@ -105,19 +107,18 @@ lectures are given by &lt;a href=&#34;http://wwwen.uni.lu/research/fstc/laborato
 &lt;h4 id=&#34;description&#34;&gt;Description:&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Algorithms&lt;/li&gt;
-&lt;li&gt;Complexity&lt;/li&gt;
-&lt;li&gt;Sorting&lt;/li&gt;
-&lt;li&gt;Data Structure&lt;/li&gt;
-&lt;li&gt;Hash&lt;/li&gt;
-&lt;li&gt;Graph&lt;/li&gt;
+&lt;li&gt;Build Automation&lt;/li&gt;
+&lt;li&gt;Junit 5&lt;/li&gt;
+&lt;li&gt;Coverage&lt;/li&gt;
+&lt;li&gt;TDD&lt;/li&gt;
+&lt;li&gt;Mutation Testing&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;statistics&#34;&gt;Statistics&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;~15 hours of practical session per semester&lt;/li&gt;
-&lt;li&gt;15 to 50 students&lt;/li&gt;
+&lt;li&gt;15 students&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
