@@ -2,94 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Plugin on Matthieu Jimenez Website</title>
-    <link>http://jimenez.lu/tags/plugin/index.xml</link>
+    <link>http://jimenez.lu/tags/plugin/</link>
     <description>Recent content in Plugin on Matthieu Jimenez Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://jimenez.lu/tags/plugin/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://jimenez.lu/tags/plugin/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>My little Plugin 4 greycat</title>
-      <link>http://jimenez.lu/project/greycat/MyLittlePlugin/</link>
-      <pubDate>Mon, 17 Apr 2017 00:00:00 +0000</pubDate>
+      <title>Greycat AdditionaL Actions</title>
+      <link>http://jimenez.lu/project/greycat/gala/</link>
+      <pubDate>Tue, 17 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://jimenez.lu/project/greycat/MyLittlePlugin/</guid>
-      <description>
-
-&lt;p&gt;This library bring additional actions to the &lt;a href=&#34;https://github.com/datathings/greycat&#34;&gt;Greycat&lt;/a&gt; project. This library is compatible with the latest Greycat api (6).
-Compatibility with previous versions of Greycat (formerly MWDB) api can be found in previous release.
-The release of the plugin will follow the release of Greycat.&lt;/p&gt;
-
-&lt;h3 id=&#34;actions&#34;&gt;Actions?&lt;/h3&gt;
-
-&lt;p&gt;Actions are reusable elements hiding low-level, asynchronous task primitives behind an expressive API.
- Actions allows to traverse and manipulate the graph and can be chained to form a task.&lt;/p&gt;
-
-&lt;h3 id=&#34;why-additional-action&#34;&gt;Why additional Action?&lt;/h3&gt;
-
-&lt;p&gt;A great number of action are already implemented and available in Greycat, please refer to the  greycat.internal.task package of Greycat.
-However, thinking and implementing every possible actions would:
-1) be impossible
-2) drastically increase the size of the project.&lt;/p&gt;
-
-&lt;p&gt;That&amp;rsquo;s why only basic, i.e., atomic, actions are implemented.&lt;/p&gt;
-
-&lt;p&gt;Yet, users might need more composed actions like Injecting an object as a variable or Putting the result of a get action in a variable instead of in the result.
-This library aims at providing such actions and will evolves alongside Greycat, i.e.,  some actions might be added as a need for it is express and other removed to be directly integrated within Greycat.&lt;/p&gt;
-
-&lt;h3 id=&#34;what-are-those-actions&#34;&gt;What are those Actions&lt;/h3&gt;
-
-&lt;p&gt;Currently offered actions are:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;doc/CheckForFuture.md&#34;&gt;Check For Future&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;doc/Count.md&#34;&gt;Count&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;doc/ExecuteAtWorldAndTime.md&#34;&gt;Execute at World and Time&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;doc/TraverseOrAttributeInVar.md&#34;&gt;Traverse Or Attribute in Var&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;doc/IfEmptyThen.md&#34;&gt;If empty then&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;doc/IfEmptyThenElse.md&#34;&gt;If empty then else&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;doc/IfNotEmptyThen.md&#34;&gt;If not empty then&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;doc/IfNotEmptyThenElse.md&#34;&gt;If not empty then else&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;doc/InjectAsVar.md&#34;&gt;Inject as Var&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;doc/Increment.md&#34;&gt;Increment&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;doc/KeepFirstResult.md&#34;&gt;Keep first result&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;doc/FlipVars.md&#34;&gt;Flip Vars&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;doc/FlipVarAndResult.md&#34;&gt;Flip Var And Result&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;doc/ReadUpdatedTimeVar.md&#34;&gt;Read Updated Time Var&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;doc/TraverseDedup.md&#34;&gt;Traverse Deduplicate&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;can-i-create-my-own-action&#34;&gt;Can I create my own action?&lt;/h3&gt;
-
-&lt;p&gt;Of course, feel free to take a look at the project to see how to implement your own action and see how to integrate them to your project.&lt;/p&gt;
-
-&lt;h3 id=&#34;how-to-use-this-library&#34;&gt;How to use this library?&lt;/h3&gt;
-
-&lt;p&gt;The library provides a maven configuration file, so just download the project, intall it using mvn install and add the following dependency to your project.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;     &amp;lt;dependency&amp;gt;
-         &amp;lt;groupId&amp;gt;lu.jimenez.research&amp;lt;/groupId&amp;gt;
-         &amp;lt;artifactId&amp;gt;my-little-plugin&amp;lt;/artifactId&amp;gt;
-         &amp;lt;version&amp;gt;$version&amp;lt;/version&amp;gt;
-     &amp;lt;/dependency&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;A jar version might be released in the future.&lt;/p&gt;
-
-&lt;p&gt;To use actions in your project import statically the actions you are interested in, in  myLittleActions file.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;import static lu.jimenez.research.mylittleplugin.MyLittleActions.*;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then you can call them when you want within a task :&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;        newTask()
-                .readGlobalIndexAll(&amp;quot;nodes&amp;quot;)
-                .traverse(&amp;quot;children&amp;quot;) //formerly get
-                .then(traverseOrAttributeInVar(&amp;quot;name&amp;quot;, &amp;quot;childrenName&amp;quot;))
-                .execute(graph, null);
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <guid>http://jimenez.lu/project/greycat/gala/</guid>
+      <description>This library bring additional actions to the Greycat project. This library is compatible with the latest Greycat api (10). Compatibility with previous versions of Greycat (formerly MWDB) api can be found in previous release. The release of the plugin will follow the release of Greycat.
+Actions? Actions are reusable elements hiding low-level, asynchronous task primitives behind an expressive API. Actions allows to traverse and manipulate the graph and can be chained to form a task.</description>
+    </item>
+    
+    <item>
+      <title>Greycat Additional Types</title>
+      <link>http://jimenez.lu/project/greycat/gat/</link>
+      <pubDate>Tue, 17 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jimenez.lu/project/greycat/gat/</guid>
+      <description>Greycat Additional Types The Greycat Additional Types (gat) project is a plugin for Greycat offering additional types to the one natively handled by Greycat. The project currently offers 3 familly of additional types, sets bitset and radix trees. More could be added in the future.
+Why additional types? Since V10, Greycat introduce the notion of Custom types that allow a user to store customize attribute in her nodes. This made extension of greycat easier to users, however as the development of custom types might be a bit tedious to new users.</description>
     </item>
     
     <item>
@@ -98,61 +37,8 @@ This library aims at providing such actions and will evolves alongside Greycat, 
       <pubDate>Mon, 17 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>http://jimenez.lu/project/greycat/paw/</guid>
-      <description>
-
-&lt;p&gt;This library bring additional functionality to the &lt;a href=&#34;https://github.com/datathings/greycat&#34;&gt;GreyCat&lt;/a&gt; project.
-This library is compatible with the latest Greycat api.&lt;/p&gt;
-
-&lt;h3 id=&#34;token&#34;&gt;Token?&lt;/h3&gt;
-
-&lt;p&gt;This project aims at providing a way to tokenize all of string that one might want to store in the graph.
-In addition to saving space, it also enable further analytics. Every tokenized content being accessible through a vocabulary node globally indexed.
-The library supports time and world, every new word being created at the Beginning of Time and first world.&lt;/p&gt;
-
-&lt;h3 id=&#34;tokenizer&#34;&gt;Tokenizer&lt;/h3&gt;
-
-&lt;p&gt;Currently the library embed several Tokenizer&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Identity Tokenizer (return the exact same string)&lt;/li&gt;
-&lt;li&gt;Simple Tokenizer, space based&lt;/li&gt;
-&lt;li&gt;UTF Tokenizer&lt;/li&gt;
-&lt;li&gt;English Tokenizer&lt;/li&gt;
-&lt;li&gt;Twitter Tokenizer&lt;/li&gt;
-&lt;li&gt;C Tokenizer&lt;/li&gt;
-&lt;li&gt;CPP Tokenizer&lt;/li&gt;
-&lt;li&gt;Java Tokenizer&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Some preprocessors are available to all Tokenizer:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Lower Case&lt;/li&gt;
-&lt;li&gt;Upper Case&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;More can be implemented on request.&lt;/p&gt;
-
-&lt;p&gt;An option to keep all delimiters is already offered for most Tokenizer(at the exception of the C and C++ ones).&lt;/p&gt;
-
-&lt;h3 id=&#34;before-use-notice&#34;&gt;Before Use notice&lt;/h3&gt;
-
-&lt;p&gt;The plugin can be used on any already existing graph, however make sure that all your global index were created at the beginning of time as it is the default behaviour of the library to create global index at the beginning of time. Already existing global index created after the beginning of time would create a modification of the past that would create unpredictable side effects.&lt;/p&gt;
-
-&lt;h3 id=&#34;set-of-provided-actions&#34;&gt;Set of Provided Actions&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Initialize Voacabulary&lt;/li&gt;
-&lt;li&gt;Retrieve Vocabulary Node&lt;/li&gt;
-&lt;li&gt;Get or create Token From String&lt;/li&gt;
-&lt;li&gt;Tokenize String Using Tokenizer&lt;/li&gt;
-&lt;li&gt;Create or Update Tokenize Relation to Node&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;how-to-use-this-library&#34;&gt;How to use this library?&lt;/h3&gt;
-
-&lt;p&gt;In progress&lt;/p&gt;
-</description>
+      <description>This library bring additional functionality to the GreyCat project. This library is compatible with the latest Greycat api.
+Token? This project aims at providing a way to tokenize all of string that one might want to store in the graph. In addition to saving space, it also enable further analytics. Every tokenized content being accessible through a vocabulary node globally indexed. The library supports time and world, every new word being created at the Beginning of Time and first world.</description>
     </item>
     
   </channel>

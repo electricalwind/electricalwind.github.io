@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Matthieu Jimenez Website</title>
-    <link>http://jimenez.lu/tags/publications/index.xml</link>
+    <link>http://jimenez.lu/tags/publications/</link>
     <description>Recent content in Publications on Matthieu Jimenez Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://jimenez.lu/tags/publications/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Apr 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://jimenez.lu/tags/publications/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Publications</title>
@@ -14,48 +17,8 @@
       <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>http://jimenez.lu/publications/</guid>
-      <description>
-
-&lt;h3 id=&#34;international-conferences&#34;&gt;International Conferences&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;(&lt;em&gt;2016&lt;/em&gt;) Matthieu Jimenez, Mike Papadakis, Yves Le Traon. &amp;ldquo;An Empirical Analysis of Vulnerabilities in OpenSSL and the Linux Kernel&amp;rdquo;
-        in Proceedings of the 23rd Asia-Pacific Software Engineering Conference (APSEC&amp;rsquo;16), University of Waikato, Hamilton, New Zealand, 6-9 December 2016&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://hdl.handle.net/10993/28628&#34;&gt;OrbiLu&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;../research/&#34;&gt;Additional Figures&lt;/a&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;(&lt;em&gt;2016&lt;/em&gt;) Matthieu Jimenez, Mike Papadakis, Yves Le Traon. &amp;ldquo;Vulnerability Prediction Models: A case study on the Linux Kernel&amp;rdquo;
-        in Proceedings of the 16th IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM&amp;rsquo;16), Raleigh, USA, 2-3 October 2016&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://hdl.handle.net/10993/28259&#34;&gt;OrbiLu&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;(&lt;em&gt;2016&lt;/em&gt;) Matthieu Jimenez, Mike Papadakis, Tegawende F. Bissyande, Jacques Klein. &amp;ldquo;Profiling Android Vulnerabilities&amp;rdquo; in Proceedings of 2016 IEEE International Conference on Software Quality,
-        Reliability and Security (QRS&amp;rsquo;16) IEEE, p222-229, Vienna, Austria, 1-3 August 2016&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://hdl.handle.net/10993/28093&#34;&gt;OrbiLu&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;international-workshops&#34;&gt;International workshops&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;(&lt;em&gt;2014&lt;/em&gt;) Cyril Cecchinel, Matthieu Jimenez, Sébastien Mosser, Michel Riveill. “An
-        Architecture to Support the Collection of Big Data in the Internet of Things” (workshop) in Proceedings of
-        the International Workshop on Ubiquitous Mobile cloud (co-located with SERVICES) (UMC’14), IEEE, pages 1-8,
-        Anchorage, Alaska, USA, 27-2 June 2014&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://nyx.i3s.unice.fr/proton/biblio/displayReference.php?export=bibtexPerso&amp;amp;&amp;amp;idPaper=2709&#34;&gt;Bibtex&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>International Conferences  (2017) Thomas Hartmann, François Fouquet, Matthieu Jimenez, Romain Rouvoy, Yves Le Traon. &amp;ldquo;Analyzing Complex Data in Motion at Scale with Temporal Graphs&amp;rdquo; in Proceedings of the 29th International Conference on Software Engineering and Knowledge Engineering (SEKE&amp;rsquo;17), Pittsburgh, USA, 5-7 July 2017
+ OrbiLu Benchmark  (2016) Matthieu Jimenez, Mike Papadakis, Yves Le Traon. &amp;ldquo;An Empirical Analysis of Vulnerabilities in OpenSSL and the Linux Kernel&amp;rdquo; in Proceedings of the 23rd Asia-Pacific Software Engineering Conference (APSEC&amp;rsquo;16), University of Waikato, Hamilton, New Zealand, 6-9 December 2016</description>
     </item>
     
   </channel>

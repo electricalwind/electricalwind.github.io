@@ -33,7 +33,7 @@
 
 
 
-    <title>Files Metrics</title>
+    <title>Greycat AdditionaL Actions</title>
 </head>
 
 <body style="background-image: url('/images/lake.jpg');">
@@ -67,17 +67,17 @@
             <div class="hmdl-page mdl-grid">
                 <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
                     <div class="hmdl-page-banner mdl-card__media mdl-color-text--grey-50" style="background-image: url('/images/sea.jpg'); background-color:#263238;">
-                        <h3 >Files Metrics</h3>
+                        <h3 >Greycat AdditionaL Actions</h3>
                     </div>
                     <div class="hmdl-page-meta mdl-color-text--grey-700 mdl-card__supporting-text">
                         <div class="minilogo" style="background-image: url('/images/me.jpg');"></div>
                         <div>
                             <strong>Matthieu Jimenez</strong>
-                            <span>Apr 17, 2017</span>
+                            <span>Oct 17, 2017</span>
                         </div>
                         <div class="section-spacer"></div>
                         <div><span>
-                            <a id="repolink" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" href="https://github.com/electricalwind/FilesMetrics/"><i class="material-icons icon ion-social-github"></i><span class="visuallyhidden">Github</span></a>
+                            <a id="repolink" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" href="https://github.com/greycat-incubator/Gala"><i class="material-icons icon ion-social-github"></i><span class="visuallyhidden">Github</span></a>
                             <span for="repolink" class="mdl-tooltip">Code Repository</span>
                         </span></div>
                     </div>
@@ -85,66 +85,79 @@
                     <div class="hmdl-page-content mdl-color-text--grey-700 mdl-card__supporting-text">
                         
 
-<h2 id="introduction">Introduction</h2>
+<p>This library bring additional actions to the <a href="https://github.com/datathings/greycat">Greycat</a> project. This library is compatible with the latest Greycat api (10).
+Compatibility with previous versions of Greycat (formerly MWDB) api can be found in previous release.
+The release of the plugin will follow the release of Greycat.</p>
 
-<p>Written in Kotlin, this project aims at providing a library for computing common metrics of a C file from Java program.
-The analysis is based on the result provided by the <a href="https://github.com/fabsx00/joern">joern tool</a>.
-To allow a better handling of dependency the tool has been ported organized for maven and only the parts relevant to this project were kept.
-This version can be found in the joern repository</p>
+<h3 id="actions">Actions?</h3>
 
-<h2 id="use">Use</h2>
+<p>Actions are reusable elements hiding low-level, asynchronous task primitives behind an expressive API.
+ Actions allows to traverse and manipulate the graph and can be chained to form a task.</p>
 
-<p>The library is written in Kotlin but can be used from Java.
-The library take the File content (String) as an input.</p>
+<h3 id="why-additional-action">Why additional Action?</h3>
 
-<pre><code>val cm = CodeMetrics(fileContent)
-cm.cyclomaticComplexity()
+<p>A great number of action are already implemented and available in Greycat, please refer to the  greycat.internal.task package of Greycat.
+However, thinking and implementing every possible actions would:
+1) be impossible
+2) drastically increase the size of the project.</p>
+
+<p>That&rsquo;s why only basic, i.e., atomic, actions are implemented.</p>
+
+<p>Yet, users might need more composed actions like Injecting an object as a variable or Putting the result of a get action in a variable instead of in the result.
+This library aims at providing such actions and will evolves alongside Greycat, i.e.,  some actions might be added as a need for it is express and other removed to be directly integrated within Greycat.</p>
+
+<h3 id="what-are-those-actions">What are those Actions</h3>
+
+<p>Currently offered actions are:</p>
+
+<ul>
+<li><a href="doc/CheckForFuture.md">Check For Future</a></li>
+<li><a href="doc/Count.md">Count</a></li>
+<li><a href="doc/ExecuteAtWorldAndTime.md">Execute at World and Time</a></li>
+<li><a href="doc/TraverseOrAttributeInVar.md">Traverse Or Attribute in Var</a></li>
+<li><a href="doc/IfEmptyThen.md">If empty then</a></li>
+<li><a href="doc/IfEmptyThenElse.md">If empty then else</a></li>
+<li><a href="doc/IfNotEmptyThen.md">If not empty then</a></li>
+<li><a href="doc/IfNotEmptyThenElse.md">If not empty then else</a></li>
+<li><a href="doc/InjectAsVar.md">Inject as Var</a></li>
+<li><a href="doc/Increment.md">Increment</a></li>
+<li><a href="doc/KeepFirstResult.md">Keep first result</a></li>
+<li><a href="doc/FlipVars.md">Flip Vars</a></li>
+<li><a href="doc/FlipVarAndResult.md">Flip Var And Result</a></li>
+<li><a href="doc/ReadUpdatedTimeVar.md">Read Updated Time Var</a></li>
+<li><a href="doc/TraverseDedup.md">Traverse Deduplicate</a></li>
+</ul>
+
+<h3 id="can-i-create-my-own-action">Can I create my own action?</h3>
+
+<p>Of course, feel free to take a look at the project to see how to implement your own action and see how to integrate them to your project.</p>
+
+<h3 id="how-to-use-this-library">How to use this library?</h3>
+
+<p>The library provides a maven configuration file, so just download the project, intall it using mvn install and add the following dependency to your project.</p>
+
+<pre><code>     &lt;dependency&gt;
+         &lt;groupId&gt;lu.jimenez.research&lt;/groupId&gt;
+         &lt;artifactId&gt;my-little-plugin&lt;/artifactId&gt;
+         &lt;version&gt;$version&lt;/version&gt;
+     &lt;/dependency&gt;
 </code></pre>
 
-<p>Different functions can then be called to retrieved the different Metrics</p>
+<p>A jar version might be released in the future.</p>
 
-<h2 id="computed-metrics">Computed Metrics</h2>
+<p>To use actions in your project import statically the actions you are interested in, in  myLittleActions file.</p>
 
-<p>List of Code Metrics:</p>
+<pre><code class="language-java">import static lu.jimenez.research.mylittleplugin.MyLittleActions.*;
+</code></pre>
 
-<ul>
-<li>Blank Line</li>
-<li>LOC</li>
-<li>preprocessor Lines</li>
-<li>Lines of comments</li>
-<li>Comment/LOC ratio</li>
-<li>Number of Function</li>
-<li>Number of Variable declaration</li>
-<li>Cyclomatic Complexity of all Function</li>
-<li>Essential Complexity of all Function</li>
-<li>FANIN</li>
-<li>FANOUT</li>
-</ul>
+<p>Then you can call them when you want within a task :</p>
 
-<h2 id="other-uses">Other uses</h2>
-
-<p>This library uses the following function to compute the metrics that can be reuse in other context:</p>
-
-<ul>
-<li><p>Function level</p>
-
-<ul>
-<li>list of Parameters  (distinction possible between reference and value)</li>
-<li>list of calls</li>
-<li>list of assignment</li>
-<li>list of declaration</li>
-<li>all complexity metrics + nesting + fan in / fan out
-<br /></li>
-</ul></li>
-
-<li><p>File Level</p>
-
-<ul>
-<li>list of function names</li>
-<li>list of Global variable</li>
-<li>map of call made by a function</li>
-</ul></li>
-</ul>
+<pre><code class="language-java">        newTask()
+                .readGlobalIndexAll(&quot;nodes&quot;)
+                .traverse(&quot;children&quot;) //formerly get
+                .then(traverseOrAttributeInVar(&quot;name&quot;, &quot;childrenName&quot;))
+                .execute(graph, null);
+</code></pre>
 
                     </div>
                     
@@ -153,19 +166,13 @@ cm.cyclomaticComplexity()
                     </div>  
                 </div>                
                 <nav class="mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
-                    <a href="/project/greycat/paw/">
+                    <a href="/project/greycat/gat/">
                         <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
                         <i class="icon ion-android-arrow-back"></i>
                         </button>
                         Older
                     </a>
                     <div class="section-spacer"></div>
-                    <a href="/project/greycat/gat/">
-                        Newer
-                        <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                            <i class="icon ion-android-arrow-forward"></i>
-                        </button>
-                    </a>
                 </nav>
  
             </div>        

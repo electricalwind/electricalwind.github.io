@@ -2,24 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Meta on Matthieu Jimenez Website</title>
-    <link>http://jimenez.lu/tags/meta/index.xml</link>
+    <link>http://jimenez.lu/tags/meta/</link>
     <description>Recent content in Meta on Matthieu Jimenez Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://jimenez.lu/tags/meta/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://jimenez.lu/tags/meta/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>October Update</title>
+      <link>http://jimenez.lu/post/octoberupdate/</link>
+      <pubDate>Wed, 25 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jimenez.lu/post/octoberupdate/</guid>
+      <description>Hello everyone,
+The website have been updated with my latest publications, and as all greycat related project are now hosted by the greycat-incubator on github, the links have been updated.</description>
+    </item>
     
     <item>
       <title>New Website</title>
-      <link>http://jimenez.lu/post/newWebSite/</link>
+      <link>http://jimenez.lu/post/newwebsite/</link>
       <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://jimenez.lu/post/newWebSite/</guid>
-      <description>&lt;p&gt;Hello everyone,&lt;/p&gt;
-
-&lt;p&gt;The website has been completely refactored and should hopefully be updated more frequently.&lt;/p&gt;
-
-&lt;p&gt;A project section appeared describing the projects I&amp;rsquo;m currently working on or worked on.&lt;/p&gt;
-</description>
+      <guid>http://jimenez.lu/post/newwebsite/</guid>
+      <description>Hello everyone,
+The website has been completely refactored and should hopefully be updated more frequently.
+A project section appeared describing the projects I&amp;rsquo;m currently working on or worked on.</description>
     </item>
     
   </channel>

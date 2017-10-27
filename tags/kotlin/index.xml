@@ -2,192 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kotlin on Matthieu Jimenez Website</title>
-    <link>http://jimenez.lu/tags/kotlin/index.xml</link>
+    <link>http://jimenez.lu/tags/kotlin/</link>
     <description>Recent content in Kotlin on Matthieu Jimenez Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://jimenez.lu/tags/kotlin/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Apr 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://jimenez.lu/tags/kotlin/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Files Metrics</title>
-      <link>http://jimenez.lu/project/utils/FileMetrics/</link>
+      <link>http://jimenez.lu/project/utils/filemetrics/</link>
       <pubDate>Mon, 17 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://jimenez.lu/project/utils/FileMetrics/</guid>
-      <description>
-
-&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-
-&lt;p&gt;Written in Kotlin, this project aims at providing a library for computing common metrics of a C file from Java program.
-The analysis is based on the result provided by the &lt;a href=&#34;https://github.com/fabsx00/joern&#34;&gt;joern tool&lt;/a&gt;.
-To allow a better handling of dependency the tool has been ported organized for maven and only the parts relevant to this project were kept.
-This version can be found in the joern repository&lt;/p&gt;
-
-&lt;h2 id=&#34;use&#34;&gt;Use&lt;/h2&gt;
-
-&lt;p&gt;The library is written in Kotlin but can be used from Java.
-The library take the File content (String) as an input.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;val cm = CodeMetrics(fileContent)
-cm.cyclomaticComplexity()
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Different functions can then be called to retrieved the different Metrics&lt;/p&gt;
-
-&lt;h2 id=&#34;computed-metrics&#34;&gt;Computed Metrics&lt;/h2&gt;
-
-&lt;p&gt;List of Code Metrics:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Blank Line&lt;/li&gt;
-&lt;li&gt;LOC&lt;/li&gt;
-&lt;li&gt;preprocessor Lines&lt;/li&gt;
-&lt;li&gt;Lines of comments&lt;/li&gt;
-&lt;li&gt;Comment/LOC ratio&lt;/li&gt;
-&lt;li&gt;Number of Function&lt;/li&gt;
-&lt;li&gt;Number of Variable declaration&lt;/li&gt;
-&lt;li&gt;Cyclomatic Complexity of all Function&lt;/li&gt;
-&lt;li&gt;Essential Complexity of all Function&lt;/li&gt;
-&lt;li&gt;FANIN&lt;/li&gt;
-&lt;li&gt;FANOUT&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;other-uses&#34;&gt;Other uses&lt;/h2&gt;
-
-&lt;p&gt;This library uses the following function to compute the metrics that can be reuse in other context:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Function level&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;list of Parameters  (distinction possible between reference and value)&lt;/li&gt;
-&lt;li&gt;list of calls&lt;/li&gt;
-&lt;li&gt;list of assignment&lt;/li&gt;
-&lt;li&gt;list of declaration&lt;/li&gt;
-&lt;li&gt;all complexity metrics + nesting + fan in / fan out
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;File Level&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;list of function names&lt;/li&gt;
-&lt;li&gt;list of Global variable&lt;/li&gt;
-&lt;li&gt;map of call made by a function&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>http://jimenez.lu/project/utils/filemetrics/</guid>
+      <description>Introduction Written in Kotlin, this project aims at providing a library for computing common metrics of a C file from Java program. The analysis is based on the result provided by the joern tool. To allow a better handling of dependency the tool has been ported organized for maven and only the parts relevant to this project were kept. This version can be found in the joern repository
+Use The library is written in Kotlin but can be used from Java.</description>
     </item>
     
     <item>
       <title>Tools Utils</title>
-      <link>http://jimenez.lu/project/utils/toolsUtils/</link>
+      <link>http://jimenez.lu/project/utils/toolsutils/</link>
       <pubDate>Mon, 17 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://jimenez.lu/project/utils/toolsUtils/</guid>
-      <description>
-
-&lt;p&gt;This library gather all utilitary methods that are used by the different modules of the bugs and vulnerabilities project and that could be used in other context.&lt;/p&gt;
-
-&lt;h2 id=&#34;content&#34;&gt;Content&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Git utilitary + diff&lt;/li&gt;
-&lt;li&gt;MultiThreading&lt;/li&gt;
-&lt;li&gt;Regexp&lt;/li&gt;
-&lt;li&gt;Serialization&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/electricalwind/tools-utils/doc/&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;git&#34;&gt;Git&lt;/h2&gt;
-
-&lt;p&gt;This module provide some useful function when trying to mine a git repository&lt;/p&gt;
-
-&lt;h3 id=&#34;use&#34;&gt;Use&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt; val git = GitUtilitary(&amp;quot;pathto .git folder&amp;quot;)
- git.retrievingFileFromSpecificCommit(&amp;quot;hashOfCommit&amp;quot;,&amp;quot;fullpathOfFile&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;class&#34;&gt;Class&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;data class DeveloperHistory(val totalNumberOfDeveloper: Int = 0, val currentNumberOfDeveloper: Int = 0, val numberOfChanges: Int = 0) : Serializable
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;methods&#34;&gt;Methods&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;retrievingFileFromSpecificCommit&lt;/li&gt;
-&lt;li&gt;listOfCommitImpactingAFile&lt;/li&gt;
-&lt;li&gt;previousCommitImpactingAFile&lt;/li&gt;
-&lt;li&gt;gitBlame&lt;/li&gt;
-&lt;li&gt;gitBlameNbDev&lt;/li&gt;
-&lt;li&gt;getDevHistoryOfAFile (use Developer History class)&lt;/li&gt;
-&lt;li&gt;getDeltaFile (Delta History)&lt;/li&gt;
-&lt;li&gt;getListOfModifiedFile&lt;/li&gt;
-&lt;li&gt;getCommitMessage&lt;/li&gt;
-&lt;li&gt;getTimeCommit&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;diff&#34;&gt;Diff&lt;/h3&gt;
-
-&lt;p&gt;This side module provides methods for computing unified diff or delta of between 2 versions of a file&lt;/p&gt;
-
-&lt;h2 id=&#34;multithreading&#34;&gt;Multithreading&lt;/h2&gt;
-
-&lt;p&gt;This object contains methods to launch a function on a list in a multithreaded way.
-So far, 3 distinct version exist:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;one in case the function return a single element (onFunctionWithSingleOutput)&lt;/li&gt;
-&lt;li&gt;one in case the function return a list of result that we need to flatten (onFunctionWithListOutput)&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;one in case the function return a list of result that need to be gathered in a list of list. (onFunctionWithListListOutput)&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Multithreading.onFunctionWithListOutput(myList, { element -&amp;gt; function(element)},numberThread)
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This multithreading function relies on the JAVA Executors and CompletionService&lt;/p&gt;
-
-&lt;h2 id=&#34;regex&#34;&gt;Regex&lt;/h2&gt;
-
-&lt;p&gt;This object gather several methods based on regexp:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;extract url from a string&lt;/li&gt;
-&lt;li&gt;recursive List Of Files Of A Directory with a given extension&lt;/li&gt;
-&lt;li&gt;bag of Words&lt;/li&gt;
-&lt;li&gt;removing C style comment&lt;/li&gt;
-&lt;li&gt;find out if one keyword is present in a string&lt;/li&gt;
-&lt;li&gt;map of frequency&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;serialization&#34;&gt;Serialization&lt;/h2&gt;
-
-&lt;p&gt;This object contains method to load/save list or map of Serializable object&lt;/p&gt;
-
-&lt;h2 id=&#34;normalizing-path-folder&#34;&gt;Normalizing Path Folder&lt;/h2&gt;
-
-&lt;p&gt;This object contains a single method to normalize the path of a folder, i.e., adding the right separator at the end if missing&lt;/p&gt;
-
-&lt;h2 id=&#34;ressource-extractor&#34;&gt;Ressource Extractor&lt;/h2&gt;
-
-&lt;p&gt;This object contains two method one for downloading a resource from the internet, the other to unzip a file&lt;/p&gt;
-
-&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
-
-&lt;p&gt;This library is coded in Kotlin 1.0.3 and use Speck as a testing framework&lt;/p&gt;
-
-&lt;h2 id=&#34;bug-and-feature-request&#34;&gt;Bug and feature request&lt;/h2&gt;
-
-&lt;p&gt;Use the &lt;a href=&#34;https://github.com/electricalwind/bvcg/issues&#34;&gt;github issue&lt;/a&gt; page to report bugs or ask for new features&lt;/p&gt;
-
-&lt;h2 id=&#34;licence&#34;&gt;Licence&lt;/h2&gt;
-
-&lt;p&gt;The tool is open source and release under apache 2 Licence.&lt;/p&gt;
-</description>
+      <guid>http://jimenez.lu/project/utils/toolsutils/</guid>
+      <description>This library gather all utilitary methods that are used by the different modules of the bugs and vulnerabilities project and that could be used in other context.
+Content  Git utilitary + diff MultiThreading Regexp Serialization  Documentation
+Git This module provide some useful function when trying to mine a git repository
+Use  val git = GitUtilitary(&amp;quot;pathto .git folder&amp;quot;) git.retrievingFileFromSpecificCommit(&amp;quot;hashOfCommit&amp;quot;,&amp;quot;fullpathOfFile&amp;quot;)  Class data class DeveloperHistory(val totalNumberOfDeveloper: Int = 0, val currentNumberOfDeveloper: Int = 0, val numberOfChanges: Int = 0) : Serializable  Methods  retrievingFileFromSpecificCommit listOfCommitImpactingAFile previousCommitImpactingAFile gitBlame gitBlameNbDev getDevHistoryOfAFile (use Developer History class) getDeltaFile (Delta History) getListOfModifiedFile getCommitMessage getTimeCommit  Diff This side module provides methods for computing unified diff or delta of between 2 versions of a file</description>
     </item>
     
   </channel>
