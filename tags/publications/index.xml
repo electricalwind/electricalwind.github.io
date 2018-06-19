@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Matthieu Jimenez Website</title>
-    <link>http://jimenez.lu/tags/publications/</link>
+    <link>http://www.jimenez.lu/tags/publications/</link>
     <description>Recent content in Publications on Matthieu Jimenez Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 03 Apr 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://jimenez.lu/tags/publications/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.jimenez.lu/tags/publications/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Publications</title>
-      <link>http://jimenez.lu/publications/</link>
+      <link>http://www.jimenez.lu/publications/</link>
       <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://jimenez.lu/publications/</guid>
-      <description>International Conferences  (2017) Thomas Hartmann, François Fouquet, Matthieu Jimenez, Romain Rouvoy, Yves Le Traon. &amp;ldquo;Analyzing Complex Data in Motion at Scale with Temporal Graphs&amp;rdquo; in Proceedings of the 29th International Conference on Software Engineering and Knowledge Engineering (SEKE&amp;rsquo;17), Pittsburgh, USA, 5-7 July 2017
- OrbiLu Benchmark  (2016) Matthieu Jimenez, Mike Papadakis, Yves Le Traon. &amp;ldquo;An Empirical Analysis of Vulnerabilities in OpenSSL and the Linux Kernel&amp;rdquo; in Proceedings of the 23rd Asia-Pacific Software Engineering Conference (APSEC&amp;rsquo;16), University of Waikato, Hamilton, New Zealand, 6-9 December 2016</description>
+      <guid>http://www.jimenez.lu/publications/</guid>
+      <description>International Conferences  (2018) Matthieu Jimenez, Maxime Cordy, Yves Le Traon, Mike Papadakis,. &amp;ldquo;On the Impact of Tokenizer and Parameters on N-Gram Based Code Analysis&amp;rdquo; in Proceedings of the 34th International Conference on Software Maintenance and Evolution (ICSME&amp;rsquo;18), Madrid, Spain, 26-28 September 2018
+ Artifact  (2017) Thomas Hartmann, François Fouquet, Matthieu Jimenez, Romain Rouvoy, Yves Le Traon. &amp;ldquo;Analyzing Complex Data in Motion at Scale with Temporal Graphs&amp;rdquo; in Proceedings of the 29th International Conference on Software Engineering and Knowledge Engineering (SEKE&amp;rsquo;17), Pittsburgh, USA, 5-7 July 2017</description>
     </item>
     
   </channel>

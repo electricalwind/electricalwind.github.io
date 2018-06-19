@@ -2,75 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Matthieu Jimenez Website</title>
-    <link>http://jimenez.lu/categories/</link>
+    <link>http://www.jimenez.lu/categories/</link>
     <description>Recent content in Categories on Matthieu Jimenez Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 03 Apr 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://jimenez.lu/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.jimenez.lu/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>http://jimenez.lu/categories/about/</link>
+      <link>http://www.jimenez.lu/categories/about/</link>
       <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://jimenez.lu/categories/about/</guid>
+      <guid>http://www.jimenez.lu/categories/about/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bio</title>
-      <link>http://jimenez.lu/categories/bio/</link>
+      <link>http://www.jimenez.lu/categories/bio/</link>
       <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://jimenez.lu/categories/bio/</guid>
+      <guid>http://www.jimenez.lu/categories/bio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data</title>
-      <link>http://jimenez.lu/categories/data/</link>
+      <link>http://www.jimenez.lu/categories/data/</link>
       <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://jimenez.lu/categories/data/</guid>
+      <guid>http://www.jimenez.lu/categories/data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Meta</title>
-      <link>http://jimenez.lu/categories/meta/</link>
+      <link>http://www.jimenez.lu/categories/meta/</link>
       <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://jimenez.lu/categories/meta/</guid>
+      <guid>http://www.jimenez.lu/categories/meta/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Post</title>
-      <link>http://jimenez.lu/categories/post/</link>
-      <pubDate>Wed, 25 Oct 2017 00:00:00 +0000</pubDate>
+      <link>http://www.jimenez.lu/categories/post/</link>
+      <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://jimenez.lu/categories/post/</guid>
+      <guid>http://www.jimenez.lu/categories/post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Project</title>
-      <link>http://jimenez.lu/categories/project/</link>
-      <pubDate>Tue, 17 Oct 2017 00:00:00 +0000</pubDate>
+      <link>http://www.jimenez.lu/categories/project/</link>
+      <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://jimenez.lu/categories/project/</guid>
+      <guid>http://www.jimenez.lu/categories/project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>http://jimenez.lu/categories/publications/</link>
+      <link>http://www.jimenez.lu/categories/publications/</link>
       <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://jimenez.lu/categories/publications/</guid>
+      <guid>http://www.jimenez.lu/categories/publications/</guid>
       <description></description>
     </item>
     

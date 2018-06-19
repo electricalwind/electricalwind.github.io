@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paper on Matthieu Jimenez Website</title>
+    <link>http://www.jimenez.lu/tags/paper/</link>
+    <description>Recent content in Paper on Matthieu Jimenez Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.jimenez.lu/tags/paper/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Paper Accepted at ICSME and Project added</title>
+      <link>http://www.jimenez.lu/post/newpaperandprojectadded/</link>
+      <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.jimenez.lu/post/newpaperandprojectadded/</guid>
+      <description>Following the acceptance of my paper &amp;ldquo;On the Impact of Tokenizer and Parameters on N-Gram Based Code Analysis&amp;rdquo; at ICSME this year, the publication as well as the project section have been updated. Among the two added projects, tuna is the artefact going along with the paper. It contains different utilities such as tokenizer, nGram Model library, defect dataset generator tool as well as the code to reproduce the experiments. While the second added project called data7 corresponds to the refactored version of the vulnerability dataset generator tool used in my previous paper.</description>
+    </item>
+    
+  </channel>
+</rss>

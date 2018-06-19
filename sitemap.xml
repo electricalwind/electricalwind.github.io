@@ -3,223 +3,256 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://jimenez.lu/post/octoberupdate/</loc>
+    <loc>http://www.jimenez.lu/post/newpaperandprojectadded/</loc>
+    <lastmod>2018-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.jimenez.lu/project/research/data7/</loc>
+    <lastmod>2018-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.jimenez.lu/project/research/tuna/</loc>
+    <lastmod>2018-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.jimenez.lu/post/octoberupdate/</loc>
     <lastmod>2017-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/project/greycat/gala/</loc>
+    <loc>http://www.jimenez.lu/project/greycat/gala/</loc>
     <lastmod>2017-10-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/project/greycat/gat/</loc>
+    <loc>http://www.jimenez.lu/project/greycat/gat/</loc>
     <lastmod>2017-10-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/post/newwebsite/</loc>
+    <loc>http://www.jimenez.lu/post/newwebsite/</loc>
     <lastmod>2017-04-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/teaching/algorithmic/</loc>
+    <loc>http://www.jimenez.lu/teaching/algorithmic/</loc>
     <lastmod>2017-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/project/utils/filemetrics/</loc>
+    <loc>http://www.jimenez.lu/project/utils/filemetrics/</loc>
     <lastmod>2017-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/teaching/intro/</loc>
+    <loc>http://www.jimenez.lu/teaching/intro/</loc>
     <lastmod>2017-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/project/greycat/paw/</loc>
+    <loc>http://www.jimenez.lu/project/greycat/paw/</loc>
     <lastmod>2017-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/teaching/st/</loc>
+    <loc>http://www.jimenez.lu/teaching/st/</loc>
     <lastmod>2017-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/project/utils/toolsutils/</loc>
+    <loc>http://www.jimenez.lu/project/utils/toolsutils/</loc>
     <lastmod>2017-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/about/</loc>
+    <loc>http://www.jimenez.lu/about/</loc>
     <lastmod>2017-04-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/publications/</loc>
+    <loc>http://www.jimenez.lu/publications/</loc>
     <lastmod>2017-04-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/research/</loc>
+    <loc>http://www.jimenez.lu/research/</loc>
     <lastmod>2017-04-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/categories/about/</loc>
+    <loc>http://www.jimenez.lu/categories/about/</loc>
     <lastmod>2017-04-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/tags/bio/</loc>
+    <loc>http://www.jimenez.lu/tags/bio/</loc>
     <lastmod>2017-04-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/categories/bio/</loc>
+    <loc>http://www.jimenez.lu/categories/bio/</loc>
     <lastmod>2017-04-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/categories/</loc>
+    <loc>http://www.jimenez.lu/categories/</loc>
     <lastmod>2017-04-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/tags/data/</loc>
+    <loc>http://www.jimenez.lu/tags/data/</loc>
     <lastmod>2017-04-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/categories/data/</loc>
+    <loc>http://www.jimenez.lu/categories/data/</loc>
     <lastmod>2017-04-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/tags/greycat/</loc>
+    <loc>http://www.jimenez.lu/tags/dataset/</loc>
+    <lastmod>2018-06-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jimenez.lu/tags/greycat/</loc>
     <lastmod>2017-10-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/tags/java/</loc>
+    <loc>http://www.jimenez.lu/tags/java/</loc>
     <lastmod>2017-10-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/tags/kotlin/</loc>
+    <loc>http://www.jimenez.lu/tags/kotlin/</loc>
     <lastmod>2017-04-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/</loc>
+    <loc>http://www.jimenez.lu/</loc>
+    <lastmod>2018-06-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jimenez.lu/tags/meta/</loc>
+    <lastmod>2018-06-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jimenez.lu/categories/meta/</loc>
+    <lastmod>2017-04-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jimenez.lu/tags/metrics/</loc>
+    <lastmod>2017-04-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jimenez.lu/tags/new/</loc>
     <lastmod>2017-10-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/tags/meta/</loc>
-    <lastmod>2017-10-25T00:00:00+00:00</lastmod>
+    <loc>http://www.jimenez.lu/tags/paper/</loc>
+    <lastmod>2018-06-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/categories/meta/</loc>
-    <lastmod>2017-04-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://jimenez.lu/tags/metrics/</loc>
-    <lastmod>2017-04-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://jimenez.lu/tags/new/</loc>
-    <lastmod>2017-10-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://jimenez.lu/tags/plugin/</loc>
+    <loc>http://www.jimenez.lu/tags/plugin/</loc>
     <lastmod>2017-10-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/categories/post/</loc>
-    <lastmod>2017-10-25T00:00:00+00:00</lastmod>
+    <loc>http://www.jimenez.lu/categories/post/</loc>
+    <lastmod>2018-06-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/post/</loc>
-    <lastmod>2017-10-25T00:00:00+00:00</lastmod>
+    <loc>http://www.jimenez.lu/post/</loc>
+    <lastmod>2018-06-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/tags/project/</loc>
-    <lastmod>2017-10-17T00:00:00+00:00</lastmod>
+    <loc>http://www.jimenez.lu/tags/project/</loc>
+    <lastmod>2018-06-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/categories/project/</loc>
-    <lastmod>2017-10-17T00:00:00+00:00</lastmod>
+    <loc>http://www.jimenez.lu/categories/project/</loc>
+    <lastmod>2018-06-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/project/</loc>
-    <lastmod>2017-10-17T00:00:00+00:00</lastmod>
+    <loc>http://www.jimenez.lu/project/</loc>
+    <lastmod>2018-06-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/tags/publications/</loc>
+    <loc>http://www.jimenez.lu/tags/publications/</loc>
     <lastmod>2017-04-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/categories/publications/</loc>
+    <loc>http://www.jimenez.lu/categories/publications/</loc>
     <lastmod>2017-04-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/tags/</loc>
+    <loc>http://www.jimenez.lu/tags/</loc>
     <lastmod>2017-04-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/tags/teaching/</loc>
+    <loc>http://www.jimenez.lu/tags/teaching/</loc>
     <lastmod>2017-04-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/teaching/</loc>
+    <loc>http://www.jimenez.lu/teaching/</loc>
     <lastmod>2017-04-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jimenez.lu/tags/utils/</loc>
+    <loc>http://www.jimenez.lu/tags/utils/</loc>
     <lastmod>2017-04-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jimenez.lu/tags/vulnerabilities/</loc>
+    <lastmod>2018-06-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

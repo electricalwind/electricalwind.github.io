@@ -2,31 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Post on Matthieu Jimenez Website</title>
-    <link>http://jimenez.lu/categories/post/</link>
+    <link>http://www.jimenez.lu/categories/post/</link>
     <description>Recent content in Post on Matthieu Jimenez Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://jimenez.lu/categories/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.jimenez.lu/categories/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Paper Accepted at ICSME and Project added</title>
+      <link>http://www.jimenez.lu/post/newpaperandprojectadded/</link>
+      <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.jimenez.lu/post/newpaperandprojectadded/</guid>
+      <description>Following the acceptance of my paper &amp;ldquo;On the Impact of Tokenizer and Parameters on N-Gram Based Code Analysis&amp;rdquo; at ICSME this year, the publication as well as the project section have been updated. Among the two added projects, tuna is the artefact going along with the paper. It contains different utilities such as tokenizer, nGram Model library, defect dataset generator tool as well as the code to reproduce the experiments. While the second added project called data7 corresponds to the refactored version of the vulnerability dataset generator tool used in my previous paper.</description>
+    </item>
+    
+    <item>
       <title>October Update</title>
-      <link>http://jimenez.lu/post/octoberupdate/</link>
+      <link>http://www.jimenez.lu/post/octoberupdate/</link>
       <pubDate>Wed, 25 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://jimenez.lu/post/octoberupdate/</guid>
+      <guid>http://www.jimenez.lu/post/octoberupdate/</guid>
       <description>Hello everyone,
 The website have been updated with my latest publications, and as all greycat related project are now hosted by the greycat-incubator on github, the links have been updated.</description>
     </item>
     
     <item>
       <title>New Website</title>
-      <link>http://jimenez.lu/post/newwebsite/</link>
+      <link>http://www.jimenez.lu/post/newwebsite/</link>
       <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://jimenez.lu/post/newwebsite/</guid>
+      <guid>http://www.jimenez.lu/post/newwebsite/</guid>
       <description>Hello everyone,
 The website has been completely refactored and should hopefully be updated more frequently.
 A project section appeared describing the projects I&amp;rsquo;m currently working on or worked on.</description>
