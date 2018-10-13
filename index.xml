@@ -6,10 +6,19 @@
     <description>Recent content on Matthieu Jimenez Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.jimenez.lu/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Thesis Defended</title>
+      <link>http://www.jimenez.lu/post/thesisdefended/</link>
+      <pubDate>Sat, 13 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.jimenez.lu/post/thesisdefended/</guid>
+      <description>On October 2nd , I defended my PhD and obtained the grade excellent. My thesis titled Evaluating Vulnerability Prediction Models is available online at the following address thesis.</description>
+    </item>
     
     <item>
       <title>Paper Accepted at ICSME and Project added</title>
@@ -155,8 +164,8 @@ Use  val git = GitUtilitary(&amp;quot;pathto .git folder&amp;quot;) git.retrievi
       <guid>http://www.jimenez.lu/about/</guid>
       <description>Hello everyone,
 On this page you will find all relevant information about me. For more detailed information, I invite you to visit my Linkedin
-Since October 2014, I&amp;rsquo;m a PhD student in the Serval team of the SnT Interdisciplinary Centre at the University of Luxembourg. I am also a teaching assistant at the FSTC(Faculty of Science, Technology and Communication ) of the University of Luxembourg.
-My research interests are Vulnerability Prediction Models and Natural Language Processing.</description>
+I received an Engineering degree in Computer Science with a major in Information Security from Polytech’Nice Sophia in 2014. I got my PhD in October 2018 at the University of Luxembourg defending a thesis on the Evaluation of Vulnerability Prediction Models.
+My topics of interests include Information Security, Machine Learning and Testing.</description>
     </item>
     
     <item>
@@ -165,8 +174,9 @@ My research interests are Vulnerability Prediction Models and Natural Language P
       <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>http://www.jimenez.lu/publications/</guid>
-      <description>International Conferences  (2018) Matthieu Jimenez, Maxime Cordy, Yves Le Traon, Mike Papadakis,. &amp;ldquo;Are mutants really natural? A study on how “naturalness” helps mutant selection&amp;rdquo; in Proceedings of the 12th International Symposium on Empirical Software Engineering and Measurement (ESEM&amp;rsquo;18), Oulu, Finland, 11-12 October 2018
- [OrbiLu]() (not available yet) Artefact  (2018) Matthieu Jimenez, Maxime Cordy, Yves Le Traon, Mike Papadakis,. &amp;ldquo;On the Impact of Tokenizer and Parameters on N-Gram Based Code Analysis&amp;rdquo; in Proceedings of the 34th International Conference on Software Maintenance and Evolution (ICSME&amp;rsquo;18), Madrid, Spain, 26-28 September 2018</description>
+      <description>PhD Thesis  (2018) Matthieu Jimenez. &amp;ldquo;Evaluating Vulnerability Prediction Models&amp;rdquo; 2 October 2018
+ OrbiLu   International Conferences  (2018) Matthieu Jimenez, Maxime Cordy, Yves Le Traon, Mike Papadakis,. &amp;ldquo;Are mutants really natural? A study on how “naturalness” helps mutant selection&amp;rdquo; in Proceedings of the 12th International Symposium on Empirical Software Engineering and Measurement (ESEM&amp;rsquo;18), Oulu, Finland, 11-12 October 2018
+ OrbiLu Artefact  (2018) Matthieu Jimenez, Maxime Cordy, Yves Le Traon, Mike Papadakis,.</description>
     </item>
     
     <item>
