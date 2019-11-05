@@ -6,10 +6,21 @@
     <description>Recent content on Matthieu Jimenez Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.jimenez.lu/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>FSE 2019</title>
+      <link>http://www.jimenez.lu/post/fse19/</link>
+      <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.jimenez.lu/post/fse19/</guid>
+      <description>2 weeks ago, I had the chance to assist to FSE&amp;rsquo;19 in Talling to present the final paper of my thesis titled: &amp;ldquo;The Importance of Accounting for Real-World Labelling When Predicting Software Vulnerabilities&amp;rdquo;, which was awarded with a  Distinguished Paper Award .
+The paper presents the risks faced when using temporal data to train and evaluate Vulnerability Prediction Models(VPM).
+The paper can be found here.</description>
+    </item>
     
     <item>
       <title>Thesis Defended</title>
@@ -164,8 +175,7 @@ Use  val git = GitUtilitary(&amp;quot;pathto .git folder&amp;quot;) git.retrievi
       <guid>http://www.jimenez.lu/about/</guid>
       <description>Hello everyone,
 On this page you will find all relevant information about me. For more detailed information, I invite you to visit my Linkedin
-I received an Engineering degree in Computer Science with a major in Information Security from Polytech’Nice Sophia in 2014. I got my PhD in October 2018 at the University of Luxembourg defending a thesis on the Evaluation of Vulnerability Prediction Models.
-My topics of interests include Information Security, Machine Learning and Testing.</description>
+I&amp;rsquo;m currently a research and development engineer at DataThings in Luxembourg. I received an Engineering degree in Computer Science with a major in Information Security from Polytech’Nice Sophia in 2014. I got my PhD in October 2018 at the University of Luxembourg defending a thesis on the Evaluation of Vulnerability Prediction Models.</description>
     </item>
     
     <item>
@@ -175,8 +185,7 @@ My topics of interests include Information Security, Machine Learning and Testin
       
       <guid>http://www.jimenez.lu/publications/</guid>
       <description>PhD Thesis  (2018) Matthieu Jimenez. &amp;ldquo;Evaluating Vulnerability Prediction Models&amp;rdquo; 2 October 2018
- OrbiLu   International Conferences  (2018) Matthieu Jimenez, Maxime Cordy, Yves Le Traon, Mike Papadakis,. &amp;ldquo;Are mutants really natural? A study on how “naturalness” helps mutant selection&amp;rdquo; in Proceedings of the 12th International Symposium on Empirical Software Engineering and Measurement (ESEM&amp;rsquo;18), Oulu, Finland, 11-12 October 2018
- OrbiLu Artefact  (2018) Matthieu Jimenez, Maxime Cordy, Yves Le Traon, Mike Papadakis,.</description>
+ OrbiLu   International Conferences Awarded  (2019) Matthieu Jimenez, Renaud Rwemalika, Mike Papadakis, Federica Sarro, Yves Le Traon, Mark Harman. &amp;ldquo;The Importance of Accounting for Real-World Labelling When Predicting Software Vulnerabilities&amp;rdquo; in Proceedings of the 27th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE&amp;rsquo;19), Tallin, Estonia, August 2019</description>
     </item>
     
     <item>

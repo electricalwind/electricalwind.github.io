@@ -6,10 +6,21 @@
     <description>Recent content in Post on Matthieu Jimenez Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.jimenez.lu/categories/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>FSE 2019</title>
+      <link>http://www.jimenez.lu/post/fse19/</link>
+      <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.jimenez.lu/post/fse19/</guid>
+      <description>2 weeks ago, I had the chance to assist to FSE&amp;rsquo;19 in Talling to present the final paper of my thesis titled: &amp;ldquo;The Importance of Accounting for Real-World Labelling When Predicting Software Vulnerabilities&amp;rdquo;, which was awarded with a  Distinguished Paper Award .
+The paper presents the risks faced when using temporal data to train and evaluate Vulnerability Prediction Models(VPM).
+The paper can be found here.</description>
+    </item>
     
     <item>
       <title>Thesis Defended</title>
