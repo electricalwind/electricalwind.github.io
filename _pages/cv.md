@@ -15,8 +15,8 @@ You can find an extended version of my CV as a [PDF file](../files/cv.pdf).
 
 * (<em> 2014-2018</em>)  <strong>PhD's degree</strong> - in Computer Science with "excellent" grade.
   University of Luxembourg, Interdisciplinary Center of Security and Trust (Serval Team)
- 
- thesis title:  *Evaluating Vulnerability Prediction Models*
+  
+  * thesis title:  *Evaluating Vulnerability Prediction Models*
                                                                           
 * (<em>2014</em>) <strong>Engineer's degree (equivalent to MSc) </strong> in Computer Science (major in
                   Computer Security) obtained with highest honors (rank 1 in final year) - Polytech Nice Sophia Antipolis
