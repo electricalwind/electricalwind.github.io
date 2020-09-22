@@ -23,8 +23,8 @@ You can find an extended version of my CV as a [PDF file](../files/cv.pdf).
                   - University of Nice, France
 * (<em>2012 - 2013</em>) <strong>One year Exchange</strong> - Polytechnique Montréal, Montréal Québec,
                   Canada
-* (<em>2011</em>) <strong>2 years degree in Applied Science</strong> - Polytech Annecy-Chambéry -
-                  University of Savoy, France
+* (<em>2011</em>) <strong>2 years degree in Applied Science</strong> - Polytech Annecy-Chambéry - University of Savoy, France
+
 # Experience
 
 * (<em>2020-Today</em>) <strong>Research Associate</strong> - SnT, University of Luxembourg, Luxembourg
