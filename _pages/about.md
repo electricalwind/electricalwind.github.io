@@ -20,7 +20,7 @@ tags:
 
 Hello everyone, 
 
-Since Summer 2020, I'm a _Research Associate_ at the [_University of Luxembourg_](https://uni.lu) in the Serval team lead by Pr. Le Traon. My research focuses but is not limited to the analysis and detection of software vulnerabilities through the use of machine learning. I'm also in charge of the Introduction to Computer Science class from the Computer Science Bachelor of the university of Luxembourg.
+Since Summer 2020, I'm a _Research Associate_ at the [_University of Luxembourg_](https://uni.lu) in the Serval team lead by Pr. Le Traon. My research focuses but is not limited to the analysis and detection of software vulnerabilities through the use of machine learning. I'm also in charge of the Introduction to Computer Science and involve in the Software Engineering II and Software Testing classes from the Computer Science Bachelors of the university of Luxembourg .
 
 I received an Engineering degree in Computer Science with a major in Information Security from Polytech’Nice Sophia in 2014.
 Followed by a PhD degree in October 2018 at the University of Luxembourg defending my thesis on the Evaluation of Vulnerability Prediction Models.
