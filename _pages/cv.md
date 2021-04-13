@@ -27,7 +27,7 @@ You can find an extended version of my CV as a [PDF file](../files/cv.pdf).
 
 # Experience
 
-* (<em>2020-Today</em>) <strong>Research Associate</strong> - SnT, University of Luxembourg, Luxembourg
+* (<em>2020-Today</em>) <strong>Research Associate</strong> - FSTM, University of Luxembourg, Luxembourg
 * (<em>2018-2020</em>) <strong>R&D Engineer</strong> - DataThings, Luxembourg
 * (<em>2014-2018</em>) <strong>Teaching assistant</strong> - FSTC University of Luxembourg
   * Algorithms
